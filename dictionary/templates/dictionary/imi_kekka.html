@@ -1,0 +1,41 @@
+{% extends 'dictionary/base.html' %}
+{% load i18n %}
+{% load gtranslate %}
+{% block imi %}
+<div>
+    <div class="header">
+        <h1 class="header1">{% trans 'imi' %}</h1><br>
+        <h2 class="header2">{% trans 'imi_lang' %}</h2>
+    </div>
+
+    <div class="top-setsumei">
+        <p style="line-height: 1; font-size: 32px">{% trans 'imi_setsu1' %}</p>
+        <li style="font-size: 22px">{% trans 'imi_setsu2' %}</li>
+        <li style="font-size: 22px">{% trans 'imi_setsu3' %}</li>
+    </div>
+
+    <div class="word-input">
+        <form>
+            <input type="text"  name="imi" placeholder="{% trans 'imi_nyu' %}">
+            <button type="submit" class="btn"><span>{% trans 'imi_btn' %}</span></button>
+        </form>
+    </div>
+
+    <div class="kekka-imi-main">
+        <p style="line-height: 1; font-size: 32px">{% trans close_setsu1 %} {% trans close_setsu_quotes1 %}<b>{{ not_found_word }}</b>{% trans close_setsu_quotes2 %} {% trans close_setsu2 %} {% trans close_setsu3 %}</p>
+        <div style="margin-top: 25px">
+            <h1>{{ word }}</h1>
+            <div style="width: 950px; height: 1px; margin-top: 5px; margin-bottom: 5px; border-top-color: #cccccc; border-top-width: 1px; border-top-style: solid;"></div>
+            <p class="imi-kekka">{{ meaning }}</p>
+        </div>
+    </div>
+
+    <div>
+        <form class="modoru" action="/">
+            <div>
+                <button style="margin-left: 22px; padding: 20px" type="submit" class="btn"><span>{% trans 'hoka_btn' %}</span></button>
+            </div>
+        </form>
+    </div>
+</div>
+{% endblock %}

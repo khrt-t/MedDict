@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+{% load static %}
+{% load i18n %}
+{% load gtranslate %}
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+    <title>MedDict</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="{% static 'CSS/style.css' %}" rel="stylesheet">
+    <link rel="icon" href="{% static 'IMG/favicon-16.png' %}" sizes="16x16" type="image/png">
+    <link rel="icon" href="{% static 'IMG/favicon-32.png' %}" sizes="32x32" type=image/png">
+</head>
+
+<body>
+    <div style="width: 1000px; height: auto; margin-top: 5px; margin-bottom: 5px; border-color: #000000; border-width: 2px; border-style: solid; border-radius: 25px">
+
+
+        <div class="top">
+            <div class="emblem">
+                <a href="/"><img style="margin-bottom: 95px" src="{% static 'IMG/logo.png' %}" border="0" title="Home page" height="160" width="160"></a>
+            </div>
+
+            <div class="title">
+                <h1 style="padding-left: 20px; padding-top: 20px; font-size: 55px; ">MedDict</h1>
+                <h3 style="padding-left: 20px; font-size: 33px">{% trans 'home_langs' %}</h3>
+            </div>
+        </div>
+
+
+
+        <div class="topnav">
+            <a class="active" href="/">{% trans 'nav1' %}</a>
+            <a class="nav-link dropdown-toggle"  role="button" data-bs-toggle="dropdown" aria-expanded="false">{% trans 'language' %}</a>
+                <ul style="background-color: #333; width: auto" class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    {% get_current_language as LANGUAGE_CODE %}
+                    {% get_available_languages as LANGUAGES %}
+                    {% get_language_info_list for LANGUAGES as languages %}
+                    {% for lang in languages %}
+                    <li>
+                        <a class="dropdown-item" href="/{{ lang.code }}/">{{ lang.name_local }}</a>
+                    </li>
+                    {% endfor %}
+                </ul>
+            <a href="about/">{% trans 'nav4' %}</a>
+        </div>
+
+        <div>
+            {% block index %}
+            {% endblock %}
+        </div>
+
+        <div>
+            {% block imi %}
+            {% endblock %}
+        </div>
+
+        <div>
+            {% block tango %}
+            {% endblock %}
+        </div>
+
+        <div>
+            {% block bunsho %}
+            {% endblock %}
+        </div>
+
+        <div class="bottom">
+            <table align="center" width="800" cellpadding="8" cellspacing="0" border="0">
+                <tr>
+                    <td colspan="2">
+                        <div style="width: 950px; height: 1px; margin-top: 5px; margin-bottom: 5px; border-top-color: #cccccc; border-top-width: 1px; border-top-style: solid;"></div>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <span style="font-size: 13pt; color: #888888;">
+                                        {% trans 'desc1' %}<br>
+                                        {% trans 'desc2' %}<br>
+                                        {% trans 'desc3' %}
+                        </span>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <small style="font-size: 20px; text-shadow: -2px -2px white, -2px 2px white, 2px -2px white, 2px 2px white;　background-size: 1px 1em;box-shadow:inset 0 -0.06em white,inset 0 -0.075em #000;　display: inline">&copy;{% trans 'author_name' %} 2022-2023</small>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+</body>
+
+</html>

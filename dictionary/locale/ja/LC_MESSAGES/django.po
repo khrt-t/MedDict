@@ -1,0 +1,2050 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-02-19 05:54+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#: .\templates\dictionary\500.html:30 .\templates\dictionary\about.html:141
+#: .\templates\dictionary\base.html:30
+msgid "home_langs"
+msgstr "日本語、英語とロシア語の辞書"
+
+#: .\templates\dictionary\500.html:38
+msgid "error500"
+msgstr "500エラー — サーバー内部エラー"
+
+#: .\templates\dictionary\500.html:40
+msgid "something_wrong"
+msgstr "サーバーに不具合があるのでしょう。。。"
+
+#: .\templates\dictionary\500.html:41
+msgid "error500_setsu"
+msgstr "翻訳言語が選択されていることを確認してください"
+
+#: .\templates\dictionary\500.html:47
+msgid "back_btn"
+msgstr "戻る"
+
+#: .\templates\dictionary\500.html:51
+msgid "home_btn"
+msgstr "ホームページ"
+
+#: .\templates\dictionary\500.html:67 .\templates\dictionary\base.html:83
+msgid "desc1"
+msgstr "「MedDict」とは日本語、英語とロシア語の医学用語辞書。"
+
+#: .\templates\dictionary\500.html:68 .\templates\dictionary\base.html:84
+msgid "desc2"
+msgstr "「MedDict」では、意味検索、単語翻訳、文章翻訳機能がある。"
+
+#: .\templates\dictionary\500.html:69 .\templates\dictionary\base.html:85
+msgid "desc3"
+msgstr ""
+"医学用語以外単語の場合、PyDictionaryとGoogleTransライブラリが使用されている。"
+
+#: .\templates\dictionary\500.html:76 .\templates\dictionary\base.html:92
+msgid "author_name"
+msgstr "クリステンコ・タイシア、"
+
+#: .\templates\dictionary\about.html:146 .\templates\dictionary\base.html:37
+msgid "nav1"
+msgstr "ホームページ"
+
+#: .\templates\dictionary\about.html:147 .\templates\dictionary\about.html:267
+msgid "about_author_nav"
+msgstr "作成者について"
+
+#: .\templates\dictionary\about.html:148 .\templates\dictionary\about.html:268
+msgid "about_project_nav"
+msgstr "プロジェクトについて"
+
+#: .\templates\dictionary\about.html:152
+msgid "about_author_title1"
+msgstr "作成者"
+
+#: .\templates\dictionary\about.html:152
+msgid "about_author_title2"
+msgstr "について"
+
+#: .\templates\dictionary\about.html:153
+msgid "about_hello"
+msgstr "こんにちは、私は"
+
+#: .\templates\dictionary\about.html:154 .\templates\dictionary\about.html:253
+msgid "about_name"
+msgstr "クリステンコ・タイシア"
+
+#: .\templates\dictionary\about.html:155
+msgid "about_college"
+msgstr "日本工学院八王子専門学校AIシステム科2年2組"
+
+#: .\templates\dictionary\about.html:166
+msgid "about_project_title1"
+msgstr "プロジェクト"
+
+#: .\templates\dictionary\about.html:166
+msgid "about_project_title2"
+msgstr "について"
+
+#: .\templates\dictionary\about.html:170
+msgid "about_what1"
+msgstr "「MedDict」"
+
+#: .\templates\dictionary\about.html:170
+msgid "about_what2"
+msgstr "とは何？"
+
+#: .\templates\dictionary\about.html:180
+msgid "about_is1"
+msgstr "MedDictとは"
+
+#: .\templates\dictionary\about.html:181
+msgid "about_is2"
+msgstr "PythonとDjangoを使用してされた医学用語辞書である。"
+
+#: .\templates\dictionary\about.html:182
+msgid "about_tai1"
+msgstr "対象者は"
+
+#: .\templates\dictionary\about.html:183
+msgid "about_tai2"
+msgstr "病院に行きたい外国人や医学部で勉強している留学生である。"
+
+#: .\templates\dictionary\about.html:184
+msgid "about_apuri1"
+msgstr "アプリケーションの言語"
+
+#: .\templates\dictionary\about.html:185
+msgid "about_apuri2"
+msgstr "「MedDict」は日本語、英語、ロシア語で使用できる。"
+
+#: .\templates\dictionary\about.html:186
+msgid "about_jisho1"
+msgstr "辞書の言語"
+
+#: .\templates\dictionary\about.html:187
+msgid "about_jisho2"
+msgstr "医学用語辞書は、日本語、英語とロシア語可能である。"
+
+#: .\templates\dictionary\about.html:188
+msgid "about_kazu1"
+msgstr "語彙数"
+
+#: .\templates\dictionary\about.html:189
+msgid "about_kazu2"
+msgstr "「MedDict」には、医学用語は各言語で２千語以上。"
+
+#: .\templates\dictionary\about.html:190
+msgid "about_kino1"
+msgstr "機能"
+
+#: .\templates\dictionary\about.html:191
+msgid "about_kino2"
+msgstr "プリケーションは３つの主要な機能に分かれている："
+
+#: .\templates\dictionary\about.html:194 .\templates\dictionary\imi.html:7
+#: .\templates\dictionary\imi_kekka.html:7
+msgid "imi"
+msgstr "意味検索"
+
+#: .\templates\dictionary\about.html:195
+msgid "about_imi_proces"
+msgstr "意味検索プロセスは２つのステージに分かれている："
+
+#: .\templates\dictionary\about.html:197 .\templates\dictionary\about.html:214
+msgid "about_imi_stages"
+msgstr "入力された単語がカスタム医学用語辞書にあるかどうか確認される"
+
+#: .\templates\dictionary\about.html:199 .\templates\dictionary\about.html:216
+msgid "about_imi_stage1"
+msgstr "あると → その結果が出力される"
+
+#: .\templates\dictionary\about.html:200
+msgid "about_imi_stage2"
+msgstr "なければ → PyDictionaryライブラリを使って、意味を検索する"
+
+#: .\templates\dictionary\about.html:204
+msgid "about_imi_lang"
+msgstr "医学用語意味検索は、日本語、英語とロシア語可能"
+
+#: .\templates\dictionary\about.html:205 .\templates\dictionary\imi.html:14
+#: .\templates\dictionary\imi_kekka.html:14
+msgid "imi_setsu3"
+msgstr "日常言葉意味検索は、英語のみ"
+
+#: .\templates\dictionary\about.html:206 .\templates\dictionary\imi.html:13
+#: .\templates\dictionary\imi_kekka.html:13
+msgid "imi_setsu2"
+msgstr "入力・出力言語は自動的に認定される"
+
+#: .\templates\dictionary\about.html:211
+#: .\templates\dictionary\tango_eigo_rosiago.html:7
+#: .\templates\dictionary\tango_kekka_eigo_rosiago.html:7
+#: .\templates\dictionary\tango_kekka_nihongo_eigo.html:7
+#: .\templates\dictionary\tango_kekka_rosiago_nihongo.html:7
+#: .\templates\dictionary\tango_kekka_sonota.html:7
+#: .\templates\dictionary\tango_nihongo_eigo.html:7
+#: .\templates\dictionary\tango_rosiago_nihongo.html:7
+#: .\templates\dictionary\tango_sentaku.html:8
+#: .\templates\dictionary\tango_sonota.html:7
+msgid "tango"
+msgstr "単語翻訳"
+
+#: .\templates\dictionary\about.html:212
+msgid "about_tango_proces"
+msgstr "単語翻訳プロセスも２つのステージに分かれている："
+
+#: .\templates\dictionary\about.html:217
+msgid "about_tango_stage2"
+msgstr "なければ → GoogleTransライブラリを使って、単語を翻訳する"
+
+#: .\templates\dictionary\about.html:221
+msgid "about_tango_med"
+msgstr "日常言葉翻訳は、100言語以上可能"
+
+#: .\templates\dictionary\about.html:222
+msgid "about_tango_words"
+msgstr "日常言葉翻訳は、100言語以上可能"
+
+#: .\templates\dictionary\about.html:223 .\templates\dictionary\about.html:233
+#: .\templates\dictionary\bunsho.html:12
+#: .\templates\dictionary\bunsho_kekka.html:12
+msgid "bun_setsu2"
+msgstr "入力言語は自動的に認定される"
+
+#: .\templates\dictionary\about.html:224 .\templates\dictionary\about.html:234
+#: .\templates\dictionary\bunsho.html:13
+#: .\templates\dictionary\bunsho_kekka.html:13
+msgid "bun_setsu3"
+msgstr "出力言語を選択必要"
+
+#: .\templates\dictionary\about.html:229 .\templates\dictionary\bunsho.html:7
+#: .\templates\dictionary\bunsho_kekka.html:7
+msgid "bun"
+msgstr "文章翻訳"
+
+#: .\templates\dictionary\about.html:230
+msgid "about_bun_library"
+msgstr "文章翻訳は、GoogleTransライブラリを使用して、実装される"
+
+#: .\templates\dictionary\about.html:232
+msgid "about_bun_lang"
+msgstr "文章翻訳は、100言語以上可能"
+
+#: .\templates\dictionary\about.html:239
+msgid "about_poster"
+msgstr "プロジェクトポスター："
+
+#: .\templates\dictionary\base.html:38
+msgid "language"
+msgstr "言語"
+
+#: .\templates\dictionary\base.html:49
+msgid "nav4"
+msgstr "について"
+
+#: .\templates\dictionary\bunsho.html:11
+#: .\templates\dictionary\bunsho_kekka.html:11
+msgid "bun_setsu1"
+msgstr "翻訳したい文章を入力してください"
+
+#: .\templates\dictionary\bunsho.html:18
+#: .\templates\dictionary\bunsho_kekka.html:18
+#: .\templates\dictionary\tango_kekka_sonota.html:20
+#: .\templates\dictionary\tango_sonota.html:20
+msgid "kano_gengo"
+msgstr "可能な言語："
+
+#: .\templates\dictionary\bunsho.html:21 .\templates\dictionary\bunsho.html:142
+#: .\templates\dictionary\bunsho.html:256
+#: .\templates\dictionary\bunsho_kekka.html:21
+#: .\templates\dictionary\bunsho_kekka.html:142
+#: .\templates\dictionary\bunsho_kekka.html:256
+#: .\templates\dictionary\tango_kekka_sonota.html:23
+#: .\templates\dictionary\tango_kekka_sonota.html:145
+#: .\templates\dictionary\tango_kekka_sonota.html:259
+#: .\templates\dictionary\tango_sonota.html:23
+#: .\templates\dictionary\tango_sonota.html:145
+#: .\templates\dictionary\tango_sonota.html:259
+msgid "gen1"
+msgstr "アフリカーンス語"
+
+#: .\templates\dictionary\bunsho.html:22 .\templates\dictionary\bunsho.html:143
+#: .\templates\dictionary\bunsho.html:259
+#: .\templates\dictionary\bunsho_kekka.html:22
+#: .\templates\dictionary\bunsho_kekka.html:143
+#: .\templates\dictionary\bunsho_kekka.html:259
+#: .\templates\dictionary\tango_kekka_sonota.html:24
+#: .\templates\dictionary\tango_kekka_sonota.html:146
+#: .\templates\dictionary\tango_kekka_sonota.html:262
+#: .\templates\dictionary\tango_sonota.html:24
+#: .\templates\dictionary\tango_sonota.html:146
+#: .\templates\dictionary\tango_sonota.html:262
+msgid "gen2"
+msgstr "アルバニア語"
+
+#: .\templates\dictionary\bunsho.html:23 .\templates\dictionary\bunsho.html:144
+#: .\templates\dictionary\bunsho.html:262
+#: .\templates\dictionary\bunsho_kekka.html:23
+#: .\templates\dictionary\bunsho_kekka.html:144
+#: .\templates\dictionary\bunsho_kekka.html:262
+#: .\templates\dictionary\tango_kekka_sonota.html:25
+#: .\templates\dictionary\tango_kekka_sonota.html:147
+#: .\templates\dictionary\tango_kekka_sonota.html:265
+#: .\templates\dictionary\tango_sonota.html:25
+#: .\templates\dictionary\tango_sonota.html:147
+#: .\templates\dictionary\tango_sonota.html:265
+msgid "gen3"
+msgstr "アムハラ語"
+
+#: .\templates\dictionary\bunsho.html:24 .\templates\dictionary\bunsho.html:145
+#: .\templates\dictionary\bunsho.html:265
+#: .\templates\dictionary\bunsho_kekka.html:24
+#: .\templates\dictionary\bunsho_kekka.html:145
+#: .\templates\dictionary\bunsho_kekka.html:265
+#: .\templates\dictionary\tango_kekka_sonota.html:26
+#: .\templates\dictionary\tango_kekka_sonota.html:148
+#: .\templates\dictionary\tango_kekka_sonota.html:268
+#: .\templates\dictionary\tango_sonota.html:26
+#: .\templates\dictionary\tango_sonota.html:148
+#: .\templates\dictionary\tango_sonota.html:268
+msgid "gen4"
+msgstr "アラビア語"
+
+#: .\templates\dictionary\bunsho.html:25 .\templates\dictionary\bunsho.html:146
+#: .\templates\dictionary\bunsho.html:268
+#: .\templates\dictionary\bunsho_kekka.html:25
+#: .\templates\dictionary\bunsho_kekka.html:146
+#: .\templates\dictionary\bunsho_kekka.html:268
+#: .\templates\dictionary\tango_kekka_sonota.html:27
+#: .\templates\dictionary\tango_kekka_sonota.html:149
+#: .\templates\dictionary\tango_kekka_sonota.html:271
+#: .\templates\dictionary\tango_sonota.html:27
+#: .\templates\dictionary\tango_sonota.html:149
+#: .\templates\dictionary\tango_sonota.html:271
+msgid "gen5"
+msgstr "アルメニア語"
+
+#: .\templates\dictionary\bunsho.html:26 .\templates\dictionary\bunsho.html:147
+#: .\templates\dictionary\bunsho.html:271
+#: .\templates\dictionary\bunsho_kekka.html:26
+#: .\templates\dictionary\bunsho_kekka.html:147
+#: .\templates\dictionary\bunsho_kekka.html:271
+#: .\templates\dictionary\tango_kekka_sonota.html:28
+#: .\templates\dictionary\tango_kekka_sonota.html:150
+#: .\templates\dictionary\tango_kekka_sonota.html:274
+#: .\templates\dictionary\tango_sonota.html:28
+#: .\templates\dictionary\tango_sonota.html:150
+#: .\templates\dictionary\tango_sonota.html:274
+msgid "gen6"
+msgstr "アゼルバイジャン語"
+
+#: .\templates\dictionary\bunsho.html:27 .\templates\dictionary\bunsho.html:148
+#: .\templates\dictionary\bunsho.html:274
+#: .\templates\dictionary\bunsho_kekka.html:27
+#: .\templates\dictionary\bunsho_kekka.html:148
+#: .\templates\dictionary\bunsho_kekka.html:274
+#: .\templates\dictionary\tango_kekka_sonota.html:29
+#: .\templates\dictionary\tango_kekka_sonota.html:151
+#: .\templates\dictionary\tango_kekka_sonota.html:277
+#: .\templates\dictionary\tango_sonota.html:29
+#: .\templates\dictionary\tango_sonota.html:151
+#: .\templates\dictionary\tango_sonota.html:277
+msgid "gen7"
+msgstr "バスク語"
+
+#: .\templates\dictionary\bunsho.html:28 .\templates\dictionary\bunsho.html:149
+#: .\templates\dictionary\bunsho.html:277
+#: .\templates\dictionary\bunsho_kekka.html:28
+#: .\templates\dictionary\bunsho_kekka.html:149
+#: .\templates\dictionary\bunsho_kekka.html:277
+#: .\templates\dictionary\tango_kekka_sonota.html:30
+#: .\templates\dictionary\tango_kekka_sonota.html:152
+#: .\templates\dictionary\tango_kekka_sonota.html:280
+#: .\templates\dictionary\tango_sonota.html:30
+#: .\templates\dictionary\tango_sonota.html:152
+#: .\templates\dictionary\tango_sonota.html:280
+msgid "gen8"
+msgstr "ベラルーシ語"
+
+#: .\templates\dictionary\bunsho.html:29 .\templates\dictionary\bunsho.html:150
+#: .\templates\dictionary\bunsho.html:280
+#: .\templates\dictionary\bunsho_kekka.html:29
+#: .\templates\dictionary\bunsho_kekka.html:150
+#: .\templates\dictionary\bunsho_kekka.html:280
+#: .\templates\dictionary\tango_kekka_sonota.html:31
+#: .\templates\dictionary\tango_kekka_sonota.html:153
+#: .\templates\dictionary\tango_kekka_sonota.html:283
+#: .\templates\dictionary\tango_sonota.html:31
+#: .\templates\dictionary\tango_sonota.html:153
+#: .\templates\dictionary\tango_sonota.html:283
+msgid "gen9"
+msgstr "ベンガル語"
+
+#: .\templates\dictionary\bunsho.html:30 .\templates\dictionary\bunsho.html:151
+#: .\templates\dictionary\bunsho.html:283
+#: .\templates\dictionary\bunsho_kekka.html:30
+#: .\templates\dictionary\bunsho_kekka.html:151
+#: .\templates\dictionary\bunsho_kekka.html:283
+#: .\templates\dictionary\tango_kekka_sonota.html:32
+#: .\templates\dictionary\tango_kekka_sonota.html:154
+#: .\templates\dictionary\tango_kekka_sonota.html:286
+#: .\templates\dictionary\tango_sonota.html:32
+#: .\templates\dictionary\tango_sonota.html:154
+#: .\templates\dictionary\tango_sonota.html:286
+msgid "gen10"
+msgstr "ボスニア語"
+
+#: .\templates\dictionary\bunsho.html:31 .\templates\dictionary\bunsho.html:152
+#: .\templates\dictionary\bunsho.html:286
+#: .\templates\dictionary\bunsho_kekka.html:31
+#: .\templates\dictionary\bunsho_kekka.html:152
+#: .\templates\dictionary\bunsho_kekka.html:286
+#: .\templates\dictionary\tango_kekka_sonota.html:33
+#: .\templates\dictionary\tango_kekka_sonota.html:155
+#: .\templates\dictionary\tango_kekka_sonota.html:289
+#: .\templates\dictionary\tango_sonota.html:33
+#: .\templates\dictionary\tango_sonota.html:155
+#: .\templates\dictionary\tango_sonota.html:289
+msgid "gen11"
+msgstr "ブルガリア語"
+
+#: .\templates\dictionary\bunsho.html:32 .\templates\dictionary\bunsho.html:153
+#: .\templates\dictionary\bunsho.html:289
+#: .\templates\dictionary\bunsho_kekka.html:32
+#: .\templates\dictionary\bunsho_kekka.html:153
+#: .\templates\dictionary\bunsho_kekka.html:289
+#: .\templates\dictionary\tango_kekka_sonota.html:34
+#: .\templates\dictionary\tango_kekka_sonota.html:156
+#: .\templates\dictionary\tango_kekka_sonota.html:292
+#: .\templates\dictionary\tango_sonota.html:34
+#: .\templates\dictionary\tango_sonota.html:156
+#: .\templates\dictionary\tango_sonota.html:292
+msgid "gen12"
+msgstr "カタロニア語"
+
+#: .\templates\dictionary\bunsho.html:33 .\templates\dictionary\bunsho.html:154
+#: .\templates\dictionary\bunsho.html:292
+#: .\templates\dictionary\bunsho_kekka.html:33
+#: .\templates\dictionary\bunsho_kekka.html:154
+#: .\templates\dictionary\bunsho_kekka.html:292
+#: .\templates\dictionary\tango_kekka_sonota.html:35
+#: .\templates\dictionary\tango_kekka_sonota.html:157
+#: .\templates\dictionary\tango_kekka_sonota.html:295
+#: .\templates\dictionary\tango_sonota.html:35
+#: .\templates\dictionary\tango_sonota.html:157
+#: .\templates\dictionary\tango_sonota.html:295
+msgid "gen13"
+msgstr "セブアノ語"
+
+#: .\templates\dictionary\bunsho.html:34 .\templates\dictionary\bunsho.html:155
+#: .\templates\dictionary\bunsho.html:295
+#: .\templates\dictionary\bunsho_kekka.html:34
+#: .\templates\dictionary\bunsho_kekka.html:155
+#: .\templates\dictionary\bunsho_kekka.html:295
+#: .\templates\dictionary\tango_kekka_sonota.html:36
+#: .\templates\dictionary\tango_kekka_sonota.html:158
+#: .\templates\dictionary\tango_kekka_sonota.html:298
+#: .\templates\dictionary\tango_sonota.html:36
+#: .\templates\dictionary\tango_sonota.html:158
+#: .\templates\dictionary\tango_sonota.html:298
+msgid "gen14"
+msgstr "チチェワ語"
+
+#: .\templates\dictionary\bunsho.html:35 .\templates\dictionary\bunsho.html:156
+#: .\templates\dictionary\bunsho.html:298
+#: .\templates\dictionary\bunsho_kekka.html:35
+#: .\templates\dictionary\bunsho_kekka.html:156
+#: .\templates\dictionary\bunsho_kekka.html:298
+#: .\templates\dictionary\tango_kekka_sonota.html:37
+#: .\templates\dictionary\tango_kekka_sonota.html:159
+#: .\templates\dictionary\tango_kekka_sonota.html:301
+#: .\templates\dictionary\tango_sonota.html:37
+#: .\templates\dictionary\tango_sonota.html:159
+#: .\templates\dictionary\tango_sonota.html:301
+msgid "gen15"
+msgstr "中国語 (簡体字)"
+
+#: .\templates\dictionary\bunsho.html:36 .\templates\dictionary\bunsho.html:157
+#: .\templates\dictionary\bunsho.html:301
+#: .\templates\dictionary\bunsho_kekka.html:36
+#: .\templates\dictionary\bunsho_kekka.html:157
+#: .\templates\dictionary\bunsho_kekka.html:301
+#: .\templates\dictionary\tango_kekka_sonota.html:38
+#: .\templates\dictionary\tango_kekka_sonota.html:160
+#: .\templates\dictionary\tango_kekka_sonota.html:304
+#: .\templates\dictionary\tango_sonota.html:38
+#: .\templates\dictionary\tango_sonota.html:160
+#: .\templates\dictionary\tango_sonota.html:304
+msgid "gen16"
+msgstr "中国語 (繁体字)"
+
+#: .\templates\dictionary\bunsho.html:37 .\templates\dictionary\bunsho.html:158
+#: .\templates\dictionary\bunsho.html:304
+#: .\templates\dictionary\bunsho_kekka.html:37
+#: .\templates\dictionary\bunsho_kekka.html:158
+#: .\templates\dictionary\bunsho_kekka.html:304
+#: .\templates\dictionary\tango_kekka_sonota.html:39
+#: .\templates\dictionary\tango_kekka_sonota.html:161
+#: .\templates\dictionary\tango_kekka_sonota.html:307
+#: .\templates\dictionary\tango_sonota.html:39
+#: .\templates\dictionary\tango_sonota.html:161
+#: .\templates\dictionary\tango_sonota.html:307
+msgid "gen17"
+msgstr "コルシカ語"
+
+#: .\templates\dictionary\bunsho.html:38 .\templates\dictionary\bunsho.html:159
+#: .\templates\dictionary\bunsho.html:307
+#: .\templates\dictionary\bunsho_kekka.html:38
+#: .\templates\dictionary\bunsho_kekka.html:159
+#: .\templates\dictionary\bunsho_kekka.html:307
+#: .\templates\dictionary\tango_kekka_sonota.html:40
+#: .\templates\dictionary\tango_kekka_sonota.html:162
+#: .\templates\dictionary\tango_kekka_sonota.html:310
+#: .\templates\dictionary\tango_sonota.html:40
+#: .\templates\dictionary\tango_sonota.html:162
+#: .\templates\dictionary\tango_sonota.html:310
+msgid "gen18"
+msgstr "クロアチア語"
+
+#: .\templates\dictionary\bunsho.html:39 .\templates\dictionary\bunsho.html:160
+#: .\templates\dictionary\bunsho.html:310
+#: .\templates\dictionary\bunsho_kekka.html:39
+#: .\templates\dictionary\bunsho_kekka.html:160
+#: .\templates\dictionary\bunsho_kekka.html:310
+#: .\templates\dictionary\tango_kekka_sonota.html:41
+#: .\templates\dictionary\tango_kekka_sonota.html:163
+#: .\templates\dictionary\tango_kekka_sonota.html:313
+#: .\templates\dictionary\tango_sonota.html:41
+#: .\templates\dictionary\tango_sonota.html:163
+#: .\templates\dictionary\tango_sonota.html:313
+msgid "gen19"
+msgstr "チェコ語"
+
+#: .\templates\dictionary\bunsho.html:40 .\templates\dictionary\bunsho.html:161
+#: .\templates\dictionary\bunsho.html:313
+#: .\templates\dictionary\bunsho_kekka.html:40
+#: .\templates\dictionary\bunsho_kekka.html:161
+#: .\templates\dictionary\bunsho_kekka.html:313
+#: .\templates\dictionary\tango_kekka_sonota.html:42
+#: .\templates\dictionary\tango_kekka_sonota.html:164
+#: .\templates\dictionary\tango_kekka_sonota.html:316
+#: .\templates\dictionary\tango_sonota.html:42
+#: .\templates\dictionary\tango_sonota.html:164
+#: .\templates\dictionary\tango_sonota.html:316
+msgid "gen20"
+msgstr "デンマーク語"
+
+#: .\templates\dictionary\bunsho.html:41 .\templates\dictionary\bunsho.html:162
+#: .\templates\dictionary\bunsho.html:316
+#: .\templates\dictionary\bunsho_kekka.html:41
+#: .\templates\dictionary\bunsho_kekka.html:162
+#: .\templates\dictionary\bunsho_kekka.html:316
+#: .\templates\dictionary\tango_kekka_sonota.html:43
+#: .\templates\dictionary\tango_kekka_sonota.html:165
+#: .\templates\dictionary\tango_kekka_sonota.html:319
+#: .\templates\dictionary\tango_sonota.html:43
+#: .\templates\dictionary\tango_sonota.html:165
+#: .\templates\dictionary\tango_sonota.html:319
+msgid "gen21"
+msgstr "オランダ語"
+
+#: .\templates\dictionary\bunsho.html:42 .\templates\dictionary\bunsho.html:140
+#: .\templates\dictionary\bunsho.html:250
+#: .\templates\dictionary\bunsho_kekka.html:42
+#: .\templates\dictionary\bunsho_kekka.html:140
+#: .\templates\dictionary\bunsho_kekka.html:250
+#: .\templates\dictionary\tango_eigo_rosiago.html:28
+#: .\templates\dictionary\tango_eigo_rosiago.html:33
+#: .\templates\dictionary\tango_kekka_eigo_rosiago.html:28
+#: .\templates\dictionary\tango_kekka_eigo_rosiago.html:33
+#: .\templates\dictionary\tango_kekka_nihongo_eigo.html:29
+#: .\templates\dictionary\tango_kekka_nihongo_eigo.html:36
+#: .\templates\dictionary\tango_kekka_sonota.html:44
+#: .\templates\dictionary\tango_kekka_sonota.html:143
+#: .\templates\dictionary\tango_kekka_sonota.html:253
+#: .\templates\dictionary\tango_nihongo_eigo.html:29
+#: .\templates\dictionary\tango_nihongo_eigo.html:36
+#: .\templates\dictionary\tango_sonota.html:44
+#: .\templates\dictionary\tango_sonota.html:143
+#: .\templates\dictionary\tango_sonota.html:253
+msgid "gen22"
+msgstr "英語"
+
+#: .\templates\dictionary\bunsho.html:43 .\templates\dictionary\bunsho.html:163
+#: .\templates\dictionary\bunsho.html:319
+#: .\templates\dictionary\bunsho_kekka.html:43
+#: .\templates\dictionary\bunsho_kekka.html:163
+#: .\templates\dictionary\bunsho_kekka.html:319
+#: .\templates\dictionary\tango_kekka_sonota.html:45
+#: .\templates\dictionary\tango_kekka_sonota.html:166
+#: .\templates\dictionary\tango_kekka_sonota.html:322
+#: .\templates\dictionary\tango_sonota.html:45
+#: .\templates\dictionary\tango_sonota.html:166
+#: .\templates\dictionary\tango_sonota.html:322
+msgid "gen23"
+msgstr "エスペラント語"
+
+#: .\templates\dictionary\bunsho.html:44 .\templates\dictionary\bunsho.html:164
+#: .\templates\dictionary\bunsho.html:322
+#: .\templates\dictionary\bunsho_kekka.html:44
+#: .\templates\dictionary\bunsho_kekka.html:164
+#: .\templates\dictionary\bunsho_kekka.html:322
+#: .\templates\dictionary\tango_kekka_sonota.html:46
+#: .\templates\dictionary\tango_kekka_sonota.html:167
+#: .\templates\dictionary\tango_kekka_sonota.html:325
+#: .\templates\dictionary\tango_sonota.html:46
+#: .\templates\dictionary\tango_sonota.html:167
+#: .\templates\dictionary\tango_sonota.html:325
+msgid "gen24"
+msgstr "エストニア語"
+
+#: .\templates\dictionary\bunsho.html:45 .\templates\dictionary\bunsho.html:165
+#: .\templates\dictionary\bunsho.html:325
+#: .\templates\dictionary\bunsho_kekka.html:45
+#: .\templates\dictionary\bunsho_kekka.html:165
+#: .\templates\dictionary\bunsho_kekka.html:325
+#: .\templates\dictionary\tango_kekka_sonota.html:47
+#: .\templates\dictionary\tango_kekka_sonota.html:168
+#: .\templates\dictionary\tango_kekka_sonota.html:328
+#: .\templates\dictionary\tango_sonota.html:47
+#: .\templates\dictionary\tango_sonota.html:168
+#: .\templates\dictionary\tango_sonota.html:328
+msgid "gen25"
+msgstr "フィリピノ語"
+
+#: .\templates\dictionary\bunsho.html:46 .\templates\dictionary\bunsho.html:166
+#: .\templates\dictionary\bunsho.html:328
+#: .\templates\dictionary\bunsho_kekka.html:46
+#: .\templates\dictionary\bunsho_kekka.html:166
+#: .\templates\dictionary\bunsho_kekka.html:328
+#: .\templates\dictionary\tango_kekka_sonota.html:48
+#: .\templates\dictionary\tango_kekka_sonota.html:169
+#: .\templates\dictionary\tango_kekka_sonota.html:331
+#: .\templates\dictionary\tango_sonota.html:48
+#: .\templates\dictionary\tango_sonota.html:169
+#: .\templates\dictionary\tango_sonota.html:331
+msgid "gen26"
+msgstr "フィンランド語"
+
+#: .\templates\dictionary\bunsho.html:47 .\templates\dictionary\bunsho.html:167
+#: .\templates\dictionary\bunsho.html:331
+#: .\templates\dictionary\bunsho_kekka.html:47
+#: .\templates\dictionary\bunsho_kekka.html:167
+#: .\templates\dictionary\bunsho_kekka.html:331
+#: .\templates\dictionary\tango_kekka_sonota.html:49
+#: .\templates\dictionary\tango_kekka_sonota.html:170
+#: .\templates\dictionary\tango_kekka_sonota.html:334
+#: .\templates\dictionary\tango_sonota.html:49
+#: .\templates\dictionary\tango_sonota.html:170
+#: .\templates\dictionary\tango_sonota.html:334
+msgid "gen27"
+msgstr "フランス語"
+
+#: .\templates\dictionary\bunsho.html:48 .\templates\dictionary\bunsho.html:168
+#: .\templates\dictionary\bunsho.html:334
+#: .\templates\dictionary\bunsho_kekka.html:48
+#: .\templates\dictionary\bunsho_kekka.html:168
+#: .\templates\dictionary\bunsho_kekka.html:334
+#: .\templates\dictionary\tango_kekka_sonota.html:50
+#: .\templates\dictionary\tango_kekka_sonota.html:171
+#: .\templates\dictionary\tango_kekka_sonota.html:337
+#: .\templates\dictionary\tango_sonota.html:50
+#: .\templates\dictionary\tango_sonota.html:171
+#: .\templates\dictionary\tango_sonota.html:337
+msgid "gen28"
+msgstr "フリジア語"
+
+#: .\templates\dictionary\bunsho.html:49 .\templates\dictionary\bunsho.html:169
+#: .\templates\dictionary\bunsho.html:337
+#: .\templates\dictionary\bunsho_kekka.html:49
+#: .\templates\dictionary\bunsho_kekka.html:169
+#: .\templates\dictionary\bunsho_kekka.html:337
+#: .\templates\dictionary\tango_kekka_sonota.html:51
+#: .\templates\dictionary\tango_kekka_sonota.html:172
+#: .\templates\dictionary\tango_kekka_sonota.html:340
+#: .\templates\dictionary\tango_sonota.html:51
+#: .\templates\dictionary\tango_sonota.html:172
+#: .\templates\dictionary\tango_sonota.html:340
+msgid "gen29"
+msgstr "ガリシア語"
+
+#: .\templates\dictionary\bunsho.html:50 .\templates\dictionary\bunsho.html:170
+#: .\templates\dictionary\bunsho.html:340
+#: .\templates\dictionary\bunsho_kekka.html:50
+#: .\templates\dictionary\bunsho_kekka.html:170
+#: .\templates\dictionary\bunsho_kekka.html:340
+#: .\templates\dictionary\tango_kekka_sonota.html:52
+#: .\templates\dictionary\tango_kekka_sonota.html:173
+#: .\templates\dictionary\tango_kekka_sonota.html:343
+#: .\templates\dictionary\tango_sonota.html:52
+#: .\templates\dictionary\tango_sonota.html:173
+#: .\templates\dictionary\tango_sonota.html:343
+msgid "gen30"
+msgstr "グルジア語"
+
+#: .\templates\dictionary\bunsho.html:51 .\templates\dictionary\bunsho.html:171
+#: .\templates\dictionary\bunsho.html:343
+#: .\templates\dictionary\bunsho_kekka.html:51
+#: .\templates\dictionary\bunsho_kekka.html:171
+#: .\templates\dictionary\bunsho_kekka.html:343
+#: .\templates\dictionary\tango_kekka_sonota.html:53
+#: .\templates\dictionary\tango_kekka_sonota.html:174
+#: .\templates\dictionary\tango_kekka_sonota.html:346
+#: .\templates\dictionary\tango_sonota.html:53
+#: .\templates\dictionary\tango_sonota.html:174
+#: .\templates\dictionary\tango_sonota.html:346
+msgid "gen31"
+msgstr "ドイツ語"
+
+#: .\templates\dictionary\bunsho.html:52 .\templates\dictionary\bunsho.html:172
+#: .\templates\dictionary\bunsho.html:346
+#: .\templates\dictionary\bunsho_kekka.html:52
+#: .\templates\dictionary\bunsho_kekka.html:172
+#: .\templates\dictionary\bunsho_kekka.html:346
+#: .\templates\dictionary\tango_kekka_sonota.html:54
+#: .\templates\dictionary\tango_kekka_sonota.html:175
+#: .\templates\dictionary\tango_kekka_sonota.html:349
+#: .\templates\dictionary\tango_sonota.html:54
+#: .\templates\dictionary\tango_sonota.html:175
+#: .\templates\dictionary\tango_sonota.html:349
+msgid "gen32"
+msgstr "ギリシャ語"
+
+#: .\templates\dictionary\bunsho.html:53 .\templates\dictionary\bunsho.html:173
+#: .\templates\dictionary\bunsho.html:349
+#: .\templates\dictionary\bunsho_kekka.html:53
+#: .\templates\dictionary\bunsho_kekka.html:173
+#: .\templates\dictionary\bunsho_kekka.html:349
+#: .\templates\dictionary\tango_kekka_sonota.html:55
+#: .\templates\dictionary\tango_kekka_sonota.html:176
+#: .\templates\dictionary\tango_kekka_sonota.html:352
+#: .\templates\dictionary\tango_sonota.html:55
+#: .\templates\dictionary\tango_sonota.html:176
+#: .\templates\dictionary\tango_sonota.html:352
+msgid "gen33"
+msgstr "グジャラート語"
+
+#: .\templates\dictionary\bunsho.html:54 .\templates\dictionary\bunsho.html:174
+#: .\templates\dictionary\bunsho.html:352
+#: .\templates\dictionary\bunsho_kekka.html:54
+#: .\templates\dictionary\bunsho_kekka.html:174
+#: .\templates\dictionary\bunsho_kekka.html:352
+#: .\templates\dictionary\tango_kekka_sonota.html:56
+#: .\templates\dictionary\tango_kekka_sonota.html:177
+#: .\templates\dictionary\tango_kekka_sonota.html:355
+#: .\templates\dictionary\tango_sonota.html:56
+#: .\templates\dictionary\tango_sonota.html:177
+#: .\templates\dictionary\tango_sonota.html:355
+msgid "gen34"
+msgstr "ハイチ クレオール語"
+
+#: .\templates\dictionary\bunsho.html:55 .\templates\dictionary\bunsho.html:175
+#: .\templates\dictionary\bunsho.html:355
+#: .\templates\dictionary\bunsho_kekka.html:55
+#: .\templates\dictionary\bunsho_kekka.html:175
+#: .\templates\dictionary\bunsho_kekka.html:355
+#: .\templates\dictionary\tango_kekka_sonota.html:57
+#: .\templates\dictionary\tango_kekka_sonota.html:178
+#: .\templates\dictionary\tango_kekka_sonota.html:358
+#: .\templates\dictionary\tango_sonota.html:57
+#: .\templates\dictionary\tango_sonota.html:178
+#: .\templates\dictionary\tango_sonota.html:358
+msgid "gen35"
+msgstr "ハウサ語"
+
+#: .\templates\dictionary\bunsho.html:56 .\templates\dictionary\bunsho.html:176
+#: .\templates\dictionary\bunsho.html:358
+#: .\templates\dictionary\bunsho_kekka.html:56
+#: .\templates\dictionary\bunsho_kekka.html:176
+#: .\templates\dictionary\bunsho_kekka.html:358
+#: .\templates\dictionary\tango_kekka_sonota.html:58
+#: .\templates\dictionary\tango_kekka_sonota.html:179
+#: .\templates\dictionary\tango_kekka_sonota.html:361
+#: .\templates\dictionary\tango_sonota.html:58
+#: .\templates\dictionary\tango_sonota.html:179
+#: .\templates\dictionary\tango_sonota.html:361
+msgid "gen36"
+msgstr "ハワイ語"
+
+#: .\templates\dictionary\bunsho.html:57 .\templates\dictionary\bunsho.html:177
+#: .\templates\dictionary\bunsho.html:361
+#: .\templates\dictionary\bunsho_kekka.html:57
+#: .\templates\dictionary\bunsho_kekka.html:177
+#: .\templates\dictionary\bunsho_kekka.html:361
+#: .\templates\dictionary\tango_kekka_sonota.html:59
+#: .\templates\dictionary\tango_kekka_sonota.html:180
+#: .\templates\dictionary\tango_kekka_sonota.html:364
+#: .\templates\dictionary\tango_sonota.html:59
+#: .\templates\dictionary\tango_sonota.html:180
+#: .\templates\dictionary\tango_sonota.html:364
+msgid "gen37"
+msgstr "ヘブライ語"
+
+#: .\templates\dictionary\bunsho.html:58 .\templates\dictionary\bunsho.html:178
+#: .\templates\dictionary\bunsho.html:364
+#: .\templates\dictionary\bunsho_kekka.html:58
+#: .\templates\dictionary\bunsho_kekka.html:178
+#: .\templates\dictionary\bunsho_kekka.html:364
+#: .\templates\dictionary\tango_kekka_sonota.html:60
+#: .\templates\dictionary\tango_kekka_sonota.html:181
+#: .\templates\dictionary\tango_kekka_sonota.html:367
+#: .\templates\dictionary\tango_sonota.html:60
+#: .\templates\dictionary\tango_sonota.html:181
+#: .\templates\dictionary\tango_sonota.html:367
+msgid "gen38"
+msgstr "ヒンディー語"
+
+#: .\templates\dictionary\bunsho.html:59 .\templates\dictionary\bunsho.html:179
+#: .\templates\dictionary\bunsho.html:367
+#: .\templates\dictionary\bunsho_kekka.html:59
+#: .\templates\dictionary\bunsho_kekka.html:179
+#: .\templates\dictionary\bunsho_kekka.html:367
+#: .\templates\dictionary\tango_kekka_sonota.html:61
+#: .\templates\dictionary\tango_kekka_sonota.html:182
+#: .\templates\dictionary\tango_kekka_sonota.html:370
+#: .\templates\dictionary\tango_sonota.html:61
+#: .\templates\dictionary\tango_sonota.html:182
+#: .\templates\dictionary\tango_sonota.html:370
+msgid "gen39"
+msgstr "ミャオ語"
+
+#: .\templates\dictionary\bunsho.html:60 .\templates\dictionary\bunsho.html:180
+#: .\templates\dictionary\bunsho.html:370
+#: .\templates\dictionary\bunsho_kekka.html:60
+#: .\templates\dictionary\bunsho_kekka.html:180
+#: .\templates\dictionary\bunsho_kekka.html:370
+#: .\templates\dictionary\tango_kekka_sonota.html:62
+#: .\templates\dictionary\tango_kekka_sonota.html:183
+#: .\templates\dictionary\tango_kekka_sonota.html:373
+#: .\templates\dictionary\tango_sonota.html:62
+#: .\templates\dictionary\tango_sonota.html:183
+#: .\templates\dictionary\tango_sonota.html:373
+msgid "gen40"
+msgstr "ハンガリー語"
+
+#: .\templates\dictionary\bunsho.html:61 .\templates\dictionary\bunsho.html:181
+#: .\templates\dictionary\bunsho.html:373
+#: .\templates\dictionary\bunsho_kekka.html:61
+#: .\templates\dictionary\bunsho_kekka.html:181
+#: .\templates\dictionary\bunsho_kekka.html:373
+#: .\templates\dictionary\tango_kekka_sonota.html:63
+#: .\templates\dictionary\tango_kekka_sonota.html:184
+#: .\templates\dictionary\tango_kekka_sonota.html:376
+#: .\templates\dictionary\tango_sonota.html:63
+#: .\templates\dictionary\tango_sonota.html:184
+#: .\templates\dictionary\tango_sonota.html:376
+msgid "gen41"
+msgstr "アイスランド語"
+
+#: .\templates\dictionary\bunsho.html:62 .\templates\dictionary\bunsho.html:182
+#: .\templates\dictionary\bunsho.html:376
+#: .\templates\dictionary\bunsho_kekka.html:62
+#: .\templates\dictionary\bunsho_kekka.html:182
+#: .\templates\dictionary\bunsho_kekka.html:376
+#: .\templates\dictionary\tango_kekka_sonota.html:64
+#: .\templates\dictionary\tango_kekka_sonota.html:185
+#: .\templates\dictionary\tango_kekka_sonota.html:379
+#: .\templates\dictionary\tango_sonota.html:64
+#: .\templates\dictionary\tango_sonota.html:185
+#: .\templates\dictionary\tango_sonota.html:379
+msgid "gen42"
+msgstr "イボ語"
+
+#: .\templates\dictionary\bunsho.html:63 .\templates\dictionary\bunsho.html:183
+#: .\templates\dictionary\bunsho.html:379
+#: .\templates\dictionary\bunsho_kekka.html:63
+#: .\templates\dictionary\bunsho_kekka.html:183
+#: .\templates\dictionary\bunsho_kekka.html:379
+#: .\templates\dictionary\tango_kekka_sonota.html:65
+#: .\templates\dictionary\tango_kekka_sonota.html:186
+#: .\templates\dictionary\tango_kekka_sonota.html:382
+#: .\templates\dictionary\tango_sonota.html:65
+#: .\templates\dictionary\tango_sonota.html:186
+#: .\templates\dictionary\tango_sonota.html:382
+msgid "gen43"
+msgstr "インドネシア語"
+
+#: .\templates\dictionary\bunsho.html:64 .\templates\dictionary\bunsho.html:184
+#: .\templates\dictionary\bunsho.html:382
+#: .\templates\dictionary\bunsho_kekka.html:64
+#: .\templates\dictionary\bunsho_kekka.html:184
+#: .\templates\dictionary\bunsho_kekka.html:382
+#: .\templates\dictionary\tango_kekka_sonota.html:66
+#: .\templates\dictionary\tango_kekka_sonota.html:187
+#: .\templates\dictionary\tango_kekka_sonota.html:385
+#: .\templates\dictionary\tango_sonota.html:66
+#: .\templates\dictionary\tango_sonota.html:187
+#: .\templates\dictionary\tango_sonota.html:385
+msgid "gen44"
+msgstr "アイルランド語"
+
+#: .\templates\dictionary\bunsho.html:65 .\templates\dictionary\bunsho.html:185
+#: .\templates\dictionary\bunsho.html:385
+#: .\templates\dictionary\bunsho_kekka.html:65
+#: .\templates\dictionary\bunsho_kekka.html:185
+#: .\templates\dictionary\bunsho_kekka.html:385
+#: .\templates\dictionary\tango_kekka_sonota.html:67
+#: .\templates\dictionary\tango_kekka_sonota.html:188
+#: .\templates\dictionary\tango_kekka_sonota.html:388
+#: .\templates\dictionary\tango_sonota.html:67
+#: .\templates\dictionary\tango_sonota.html:188
+#: .\templates\dictionary\tango_sonota.html:388
+msgid "gen45"
+msgstr "イタリア語"
+
+#: .\templates\dictionary\bunsho.html:66 .\templates\dictionary\bunsho.html:139
+#: .\templates\dictionary\bunsho.html:247
+#: .\templates\dictionary\bunsho_kekka.html:66
+#: .\templates\dictionary\bunsho_kekka.html:139
+#: .\templates\dictionary\bunsho_kekka.html:247
+#: .\templates\dictionary\tango_kekka_nihongo_eigo.html:28
+#: .\templates\dictionary\tango_kekka_nihongo_eigo.html:33
+#: .\templates\dictionary\tango_kekka_rosiago_nihongo.html:29
+#: .\templates\dictionary\tango_kekka_rosiago_nihongo.html:36
+#: .\templates\dictionary\tango_kekka_sonota.html:68
+#: .\templates\dictionary\tango_kekka_sonota.html:142
+#: .\templates\dictionary\tango_kekka_sonota.html:250
+#: .\templates\dictionary\tango_nihongo_eigo.html:28
+#: .\templates\dictionary\tango_nihongo_eigo.html:33
+#: .\templates\dictionary\tango_rosiago_nihongo.html:29
+#: .\templates\dictionary\tango_rosiago_nihongo.html:36
+#: .\templates\dictionary\tango_sonota.html:68
+#: .\templates\dictionary\tango_sonota.html:142
+#: .\templates\dictionary\tango_sonota.html:250
+msgid "gen46"
+msgstr "日本語"
+
+#: .\templates\dictionary\bunsho.html:67 .\templates\dictionary\bunsho.html:186
+#: .\templates\dictionary\bunsho.html:388
+#: .\templates\dictionary\bunsho_kekka.html:67
+#: .\templates\dictionary\bunsho_kekka.html:186
+#: .\templates\dictionary\bunsho_kekka.html:388
+#: .\templates\dictionary\tango_kekka_sonota.html:69
+#: .\templates\dictionary\tango_kekka_sonota.html:189
+#: .\templates\dictionary\tango_kekka_sonota.html:391
+#: .\templates\dictionary\tango_sonota.html:69
+#: .\templates\dictionary\tango_sonota.html:189
+#: .\templates\dictionary\tango_sonota.html:391
+msgid "gen47"
+msgstr "ジャワ語"
+
+#: .\templates\dictionary\bunsho.html:68 .\templates\dictionary\bunsho.html:187
+#: .\templates\dictionary\bunsho.html:391
+#: .\templates\dictionary\bunsho_kekka.html:68
+#: .\templates\dictionary\bunsho_kekka.html:187
+#: .\templates\dictionary\bunsho_kekka.html:391
+#: .\templates\dictionary\tango_kekka_sonota.html:70
+#: .\templates\dictionary\tango_kekka_sonota.html:190
+#: .\templates\dictionary\tango_kekka_sonota.html:394
+#: .\templates\dictionary\tango_sonota.html:70
+#: .\templates\dictionary\tango_sonota.html:190
+#: .\templates\dictionary\tango_sonota.html:394
+msgid "gen48"
+msgstr "カンナダ語"
+
+#: .\templates\dictionary\bunsho.html:69 .\templates\dictionary\bunsho.html:188
+#: .\templates\dictionary\bunsho.html:394
+#: .\templates\dictionary\bunsho_kekka.html:69
+#: .\templates\dictionary\bunsho_kekka.html:188
+#: .\templates\dictionary\bunsho_kekka.html:394
+#: .\templates\dictionary\tango_kekka_sonota.html:71
+#: .\templates\dictionary\tango_kekka_sonota.html:191
+#: .\templates\dictionary\tango_kekka_sonota.html:397
+#: .\templates\dictionary\tango_sonota.html:71
+#: .\templates\dictionary\tango_sonota.html:191
+#: .\templates\dictionary\tango_sonota.html:397
+msgid "gen49"
+msgstr "カザフ語"
+
+#: .\templates\dictionary\bunsho.html:70 .\templates\dictionary\bunsho.html:189
+#: .\templates\dictionary\bunsho.html:397
+#: .\templates\dictionary\bunsho_kekka.html:70
+#: .\templates\dictionary\bunsho_kekka.html:189
+#: .\templates\dictionary\bunsho_kekka.html:397
+#: .\templates\dictionary\tango_kekka_sonota.html:72
+#: .\templates\dictionary\tango_kekka_sonota.html:192
+#: .\templates\dictionary\tango_kekka_sonota.html:400
+#: .\templates\dictionary\tango_sonota.html:72
+#: .\templates\dictionary\tango_sonota.html:192
+#: .\templates\dictionary\tango_sonota.html:400
+msgid "gen50"
+msgstr "クメール語"
+
+#: .\templates\dictionary\bunsho.html:71 .\templates\dictionary\bunsho.html:190
+#: .\templates\dictionary\bunsho.html:400
+#: .\templates\dictionary\bunsho_kekka.html:71
+#: .\templates\dictionary\bunsho_kekka.html:190
+#: .\templates\dictionary\bunsho_kekka.html:400
+#: .\templates\dictionary\tango_kekka_sonota.html:73
+#: .\templates\dictionary\tango_kekka_sonota.html:193
+#: .\templates\dictionary\tango_kekka_sonota.html:403
+#: .\templates\dictionary\tango_sonota.html:73
+#: .\templates\dictionary\tango_sonota.html:193
+#: .\templates\dictionary\tango_sonota.html:403
+msgid "gen51"
+msgstr "韓国語"
+
+#: .\templates\dictionary\bunsho.html:72 .\templates\dictionary\bunsho.html:191
+#: .\templates\dictionary\bunsho.html:403
+#: .\templates\dictionary\bunsho_kekka.html:72
+#: .\templates\dictionary\bunsho_kekka.html:191
+#: .\templates\dictionary\bunsho_kekka.html:403
+#: .\templates\dictionary\tango_kekka_sonota.html:74
+#: .\templates\dictionary\tango_kekka_sonota.html:194
+#: .\templates\dictionary\tango_kekka_sonota.html:406
+#: .\templates\dictionary\tango_sonota.html:74
+#: .\templates\dictionary\tango_sonota.html:194
+#: .\templates\dictionary\tango_sonota.html:406
+msgid "gen52"
+msgstr "クルド語 (クルマンジー)"
+
+#: .\templates\dictionary\bunsho.html:73 .\templates\dictionary\bunsho.html:192
+#: .\templates\dictionary\bunsho.html:406
+#: .\templates\dictionary\bunsho_kekka.html:73
+#: .\templates\dictionary\bunsho_kekka.html:192
+#: .\templates\dictionary\bunsho_kekka.html:406
+#: .\templates\dictionary\tango_kekka_sonota.html:75
+#: .\templates\dictionary\tango_kekka_sonota.html:195
+#: .\templates\dictionary\tango_kekka_sonota.html:409
+#: .\templates\dictionary\tango_sonota.html:75
+#: .\templates\dictionary\tango_sonota.html:195
+#: .\templates\dictionary\tango_sonota.html:409
+msgid "gen53"
+msgstr "キルギス語"
+
+#: .\templates\dictionary\bunsho.html:74 .\templates\dictionary\bunsho.html:193
+#: .\templates\dictionary\bunsho.html:409
+#: .\templates\dictionary\bunsho_kekka.html:74
+#: .\templates\dictionary\bunsho_kekka.html:193
+#: .\templates\dictionary\bunsho_kekka.html:409
+#: .\templates\dictionary\tango_kekka_sonota.html:76
+#: .\templates\dictionary\tango_kekka_sonota.html:196
+#: .\templates\dictionary\tango_kekka_sonota.html:412
+#: .\templates\dictionary\tango_sonota.html:76
+#: .\templates\dictionary\tango_sonota.html:196
+#: .\templates\dictionary\tango_sonota.html:412
+msgid "gen54"
+msgstr "ラオス語"
+
+#: .\templates\dictionary\bunsho.html:75 .\templates\dictionary\bunsho.html:194
+#: .\templates\dictionary\bunsho.html:412
+#: .\templates\dictionary\bunsho_kekka.html:75
+#: .\templates\dictionary\bunsho_kekka.html:194
+#: .\templates\dictionary\bunsho_kekka.html:412
+#: .\templates\dictionary\tango_kekka_sonota.html:77
+#: .\templates\dictionary\tango_kekka_sonota.html:197
+#: .\templates\dictionary\tango_kekka_sonota.html:415
+#: .\templates\dictionary\tango_sonota.html:77
+#: .\templates\dictionary\tango_sonota.html:197
+#: .\templates\dictionary\tango_sonota.html:415
+msgid "gen55"
+msgstr "ラテン語"
+
+#: .\templates\dictionary\bunsho.html:76 .\templates\dictionary\bunsho.html:195
+#: .\templates\dictionary\bunsho.html:415
+#: .\templates\dictionary\bunsho_kekka.html:76
+#: .\templates\dictionary\bunsho_kekka.html:195
+#: .\templates\dictionary\bunsho_kekka.html:415
+#: .\templates\dictionary\tango_kekka_sonota.html:78
+#: .\templates\dictionary\tango_kekka_sonota.html:198
+#: .\templates\dictionary\tango_kekka_sonota.html:418
+#: .\templates\dictionary\tango_sonota.html:78
+#: .\templates\dictionary\tango_sonota.html:198
+#: .\templates\dictionary\tango_sonota.html:418
+msgid "gen56"
+msgstr "ラトビア語"
+
+#: .\templates\dictionary\bunsho.html:77 .\templates\dictionary\bunsho.html:196
+#: .\templates\dictionary\bunsho.html:418
+#: .\templates\dictionary\bunsho_kekka.html:77
+#: .\templates\dictionary\bunsho_kekka.html:196
+#: .\templates\dictionary\bunsho_kekka.html:418
+#: .\templates\dictionary\tango_kekka_sonota.html:79
+#: .\templates\dictionary\tango_kekka_sonota.html:199
+#: .\templates\dictionary\tango_kekka_sonota.html:421
+#: .\templates\dictionary\tango_sonota.html:79
+#: .\templates\dictionary\tango_sonota.html:199
+#: .\templates\dictionary\tango_sonota.html:421
+msgid "gen57"
+msgstr "リトアニア語"
+
+#: .\templates\dictionary\bunsho.html:78 .\templates\dictionary\bunsho.html:197
+#: .\templates\dictionary\bunsho.html:421
+#: .\templates\dictionary\bunsho_kekka.html:78
+#: .\templates\dictionary\bunsho_kekka.html:197
+#: .\templates\dictionary\bunsho_kekka.html:421
+#: .\templates\dictionary\tango_kekka_sonota.html:80
+#: .\templates\dictionary\tango_kekka_sonota.html:200
+#: .\templates\dictionary\tango_kekka_sonota.html:424
+#: .\templates\dictionary\tango_sonota.html:80
+#: .\templates\dictionary\tango_sonota.html:200
+#: .\templates\dictionary\tango_sonota.html:424
+msgid "gen58"
+msgstr "ルクセンブルク語"
+
+#: .\templates\dictionary\bunsho.html:79 .\templates\dictionary\bunsho.html:198
+#: .\templates\dictionary\bunsho.html:424
+#: .\templates\dictionary\bunsho_kekka.html:79
+#: .\templates\dictionary\bunsho_kekka.html:198
+#: .\templates\dictionary\bunsho_kekka.html:424
+#: .\templates\dictionary\tango_kekka_sonota.html:81
+#: .\templates\dictionary\tango_kekka_sonota.html:201
+#: .\templates\dictionary\tango_kekka_sonota.html:427
+#: .\templates\dictionary\tango_sonota.html:81
+#: .\templates\dictionary\tango_sonota.html:201
+#: .\templates\dictionary\tango_sonota.html:427
+msgid "gen59"
+msgstr "マケドニア語"
+
+#: .\templates\dictionary\bunsho.html:80 .\templates\dictionary\bunsho.html:199
+#: .\templates\dictionary\bunsho.html:427
+#: .\templates\dictionary\bunsho_kekka.html:80
+#: .\templates\dictionary\bunsho_kekka.html:199
+#: .\templates\dictionary\bunsho_kekka.html:427
+#: .\templates\dictionary\tango_kekka_sonota.html:82
+#: .\templates\dictionary\tango_kekka_sonota.html:202
+#: .\templates\dictionary\tango_kekka_sonota.html:430
+#: .\templates\dictionary\tango_sonota.html:82
+#: .\templates\dictionary\tango_sonota.html:202
+#: .\templates\dictionary\tango_sonota.html:430
+msgid "gen60"
+msgstr "マダガスカル語"
+
+#: .\templates\dictionary\bunsho.html:81 .\templates\dictionary\bunsho.html:200
+#: .\templates\dictionary\bunsho.html:430
+#: .\templates\dictionary\bunsho_kekka.html:81
+#: .\templates\dictionary\bunsho_kekka.html:200
+#: .\templates\dictionary\bunsho_kekka.html:430
+#: .\templates\dictionary\tango_kekka_sonota.html:83
+#: .\templates\dictionary\tango_kekka_sonota.html:203
+#: .\templates\dictionary\tango_kekka_sonota.html:433
+#: .\templates\dictionary\tango_sonota.html:83
+#: .\templates\dictionary\tango_sonota.html:203
+#: .\templates\dictionary\tango_sonota.html:433
+msgid "gen61"
+msgstr "マレー語"
+
+#: .\templates\dictionary\bunsho.html:82 .\templates\dictionary\bunsho.html:201
+#: .\templates\dictionary\bunsho.html:433
+#: .\templates\dictionary\bunsho_kekka.html:82
+#: .\templates\dictionary\bunsho_kekka.html:201
+#: .\templates\dictionary\bunsho_kekka.html:433
+#: .\templates\dictionary\tango_kekka_sonota.html:84
+#: .\templates\dictionary\tango_kekka_sonota.html:204
+#: .\templates\dictionary\tango_kekka_sonota.html:436
+#: .\templates\dictionary\tango_sonota.html:84
+#: .\templates\dictionary\tango_sonota.html:204
+#: .\templates\dictionary\tango_sonota.html:436
+msgid "gen62"
+msgstr "マラヤーラム語"
+
+#: .\templates\dictionary\bunsho.html:83 .\templates\dictionary\bunsho.html:202
+#: .\templates\dictionary\bunsho.html:436
+#: .\templates\dictionary\bunsho_kekka.html:83
+#: .\templates\dictionary\bunsho_kekka.html:202
+#: .\templates\dictionary\bunsho_kekka.html:436
+#: .\templates\dictionary\tango_kekka_sonota.html:85
+#: .\templates\dictionary\tango_kekka_sonota.html:205
+#: .\templates\dictionary\tango_kekka_sonota.html:439
+#: .\templates\dictionary\tango_sonota.html:85
+#: .\templates\dictionary\tango_sonota.html:205
+#: .\templates\dictionary\tango_sonota.html:439
+msgid "gen63"
+msgstr "マルタ語"
+
+#: .\templates\dictionary\bunsho.html:84 .\templates\dictionary\bunsho.html:203
+#: .\templates\dictionary\bunsho.html:439
+#: .\templates\dictionary\bunsho_kekka.html:84
+#: .\templates\dictionary\bunsho_kekka.html:203
+#: .\templates\dictionary\bunsho_kekka.html:439
+#: .\templates\dictionary\tango_kekka_sonota.html:86
+#: .\templates\dictionary\tango_kekka_sonota.html:206
+#: .\templates\dictionary\tango_kekka_sonota.html:442
+#: .\templates\dictionary\tango_sonota.html:86
+#: .\templates\dictionary\tango_sonota.html:206
+#: .\templates\dictionary\tango_sonota.html:442
+msgid "gen64"
+msgstr "マオリ語"
+
+#: .\templates\dictionary\bunsho.html:85 .\templates\dictionary\bunsho.html:204
+#: .\templates\dictionary\bunsho.html:442
+#: .\templates\dictionary\bunsho_kekka.html:85
+#: .\templates\dictionary\bunsho_kekka.html:204
+#: .\templates\dictionary\bunsho_kekka.html:442
+#: .\templates\dictionary\tango_kekka_sonota.html:87
+#: .\templates\dictionary\tango_kekka_sonota.html:207
+#: .\templates\dictionary\tango_kekka_sonota.html:445
+#: .\templates\dictionary\tango_sonota.html:87
+#: .\templates\dictionary\tango_sonota.html:207
+#: .\templates\dictionary\tango_sonota.html:445
+msgid "gen65"
+msgstr "マラーティー語"
+
+#: .\templates\dictionary\bunsho.html:86 .\templates\dictionary\bunsho.html:205
+#: .\templates\dictionary\bunsho.html:445
+#: .\templates\dictionary\bunsho_kekka.html:86
+#: .\templates\dictionary\bunsho_kekka.html:205
+#: .\templates\dictionary\bunsho_kekka.html:445
+#: .\templates\dictionary\tango_kekka_sonota.html:88
+#: .\templates\dictionary\tango_kekka_sonota.html:208
+#: .\templates\dictionary\tango_kekka_sonota.html:448
+#: .\templates\dictionary\tango_sonota.html:88
+#: .\templates\dictionary\tango_sonota.html:208
+#: .\templates\dictionary\tango_sonota.html:448
+msgid "gen66"
+msgstr "モンゴル語"
+
+#: .\templates\dictionary\bunsho.html:87 .\templates\dictionary\bunsho.html:206
+#: .\templates\dictionary\bunsho.html:448
+#: .\templates\dictionary\bunsho_kekka.html:87
+#: .\templates\dictionary\bunsho_kekka.html:206
+#: .\templates\dictionary\bunsho_kekka.html:448
+#: .\templates\dictionary\tango_kekka_sonota.html:89
+#: .\templates\dictionary\tango_kekka_sonota.html:209
+#: .\templates\dictionary\tango_kekka_sonota.html:451
+#: .\templates\dictionary\tango_sonota.html:89
+#: .\templates\dictionary\tango_sonota.html:209
+#: .\templates\dictionary\tango_sonota.html:451
+msgid "gen67"
+msgstr "ミャンマー語 (ビルマ語)"
+
+#: .\templates\dictionary\bunsho.html:88 .\templates\dictionary\bunsho.html:207
+#: .\templates\dictionary\bunsho.html:451
+#: .\templates\dictionary\bunsho_kekka.html:88
+#: .\templates\dictionary\bunsho_kekka.html:207
+#: .\templates\dictionary\bunsho_kekka.html:451
+#: .\templates\dictionary\tango_kekka_sonota.html:90
+#: .\templates\dictionary\tango_kekka_sonota.html:210
+#: .\templates\dictionary\tango_kekka_sonota.html:454
+#: .\templates\dictionary\tango_sonota.html:90
+#: .\templates\dictionary\tango_sonota.html:210
+#: .\templates\dictionary\tango_sonota.html:454
+msgid "gen68"
+msgstr "ネパール語"
+
+#: .\templates\dictionary\bunsho.html:89 .\templates\dictionary\bunsho.html:208
+#: .\templates\dictionary\bunsho.html:454
+#: .\templates\dictionary\bunsho_kekka.html:89
+#: .\templates\dictionary\bunsho_kekka.html:208
+#: .\templates\dictionary\bunsho_kekka.html:454
+#: .\templates\dictionary\tango_kekka_sonota.html:91
+#: .\templates\dictionary\tango_kekka_sonota.html:211
+#: .\templates\dictionary\tango_kekka_sonota.html:457
+#: .\templates\dictionary\tango_sonota.html:91
+#: .\templates\dictionary\tango_sonota.html:211
+#: .\templates\dictionary\tango_sonota.html:457
+msgid "gen69"
+msgstr "ノルウェー語"
+
+#: .\templates\dictionary\bunsho.html:90 .\templates\dictionary\bunsho.html:209
+#: .\templates\dictionary\bunsho.html:457
+#: .\templates\dictionary\bunsho_kekka.html:90
+#: .\templates\dictionary\bunsho_kekka.html:209
+#: .\templates\dictionary\bunsho_kekka.html:457
+#: .\templates\dictionary\tango_kekka_sonota.html:92
+#: .\templates\dictionary\tango_kekka_sonota.html:212
+#: .\templates\dictionary\tango_kekka_sonota.html:460
+#: .\templates\dictionary\tango_sonota.html:92
+#: .\templates\dictionary\tango_sonota.html:212
+#: .\templates\dictionary\tango_sonota.html:460
+msgid "gen70"
+msgstr "オディア語"
+
+#: .\templates\dictionary\bunsho.html:91 .\templates\dictionary\bunsho.html:210
+#: .\templates\dictionary\bunsho.html:460
+#: .\templates\dictionary\bunsho_kekka.html:91
+#: .\templates\dictionary\bunsho_kekka.html:210
+#: .\templates\dictionary\bunsho_kekka.html:460
+#: .\templates\dictionary\tango_kekka_sonota.html:93
+#: .\templates\dictionary\tango_kekka_sonota.html:213
+#: .\templates\dictionary\tango_kekka_sonota.html:463
+#: .\templates\dictionary\tango_sonota.html:93
+#: .\templates\dictionary\tango_sonota.html:213
+#: .\templates\dictionary\tango_sonota.html:463
+msgid "gen71"
+msgstr "パシュトー語"
+
+#: .\templates\dictionary\bunsho.html:92 .\templates\dictionary\bunsho.html:211
+#: .\templates\dictionary\bunsho.html:463
+#: .\templates\dictionary\bunsho_kekka.html:92
+#: .\templates\dictionary\bunsho_kekka.html:211
+#: .\templates\dictionary\bunsho_kekka.html:463
+#: .\templates\dictionary\tango_kekka_sonota.html:94
+#: .\templates\dictionary\tango_kekka_sonota.html:214
+#: .\templates\dictionary\tango_kekka_sonota.html:466
+#: .\templates\dictionary\tango_sonota.html:94
+#: .\templates\dictionary\tango_sonota.html:214
+#: .\templates\dictionary\tango_sonota.html:466
+msgid "gen72"
+msgstr "ペルシア語"
+
+#: .\templates\dictionary\bunsho.html:93 .\templates\dictionary\bunsho.html:212
+#: .\templates\dictionary\bunsho.html:466
+#: .\templates\dictionary\bunsho_kekka.html:93
+#: .\templates\dictionary\bunsho_kekka.html:212
+#: .\templates\dictionary\bunsho_kekka.html:466
+#: .\templates\dictionary\tango_kekka_sonota.html:95
+#: .\templates\dictionary\tango_kekka_sonota.html:215
+#: .\templates\dictionary\tango_kekka_sonota.html:469
+#: .\templates\dictionary\tango_sonota.html:95
+#: .\templates\dictionary\tango_sonota.html:215
+#: .\templates\dictionary\tango_sonota.html:469
+msgid "gen73"
+msgstr "ポーランド語"
+
+#: .\templates\dictionary\bunsho.html:94 .\templates\dictionary\bunsho.html:213
+#: .\templates\dictionary\bunsho.html:469
+#: .\templates\dictionary\bunsho_kekka.html:94
+#: .\templates\dictionary\bunsho_kekka.html:213
+#: .\templates\dictionary\bunsho_kekka.html:469
+#: .\templates\dictionary\tango_kekka_sonota.html:96
+#: .\templates\dictionary\tango_kekka_sonota.html:216
+#: .\templates\dictionary\tango_kekka_sonota.html:472
+#: .\templates\dictionary\tango_sonota.html:96
+#: .\templates\dictionary\tango_sonota.html:216
+#: .\templates\dictionary\tango_sonota.html:472
+msgid "gen74"
+msgstr "ポルトガル語"
+
+#: .\templates\dictionary\bunsho.html:95 .\templates\dictionary\bunsho.html:214
+#: .\templates\dictionary\bunsho.html:472
+#: .\templates\dictionary\bunsho_kekka.html:95
+#: .\templates\dictionary\bunsho_kekka.html:214
+#: .\templates\dictionary\bunsho_kekka.html:472
+#: .\templates\dictionary\tango_kekka_sonota.html:97
+#: .\templates\dictionary\tango_kekka_sonota.html:217
+#: .\templates\dictionary\tango_kekka_sonota.html:475
+#: .\templates\dictionary\tango_sonota.html:97
+#: .\templates\dictionary\tango_sonota.html:217
+#: .\templates\dictionary\tango_sonota.html:475
+msgid "gen75"
+msgstr "パンジャブ語"
+
+#: .\templates\dictionary\bunsho.html:96 .\templates\dictionary\bunsho.html:215
+#: .\templates\dictionary\bunsho.html:475
+#: .\templates\dictionary\bunsho_kekka.html:96
+#: .\templates\dictionary\bunsho_kekka.html:215
+#: .\templates\dictionary\bunsho_kekka.html:475
+#: .\templates\dictionary\tango_kekka_sonota.html:98
+#: .\templates\dictionary\tango_kekka_sonota.html:218
+#: .\templates\dictionary\tango_kekka_sonota.html:478
+#: .\templates\dictionary\tango_sonota.html:98
+#: .\templates\dictionary\tango_sonota.html:218
+#: .\templates\dictionary\tango_sonota.html:478
+msgid "gen76"
+msgstr "ルーマニア語"
+
+#: .\templates\dictionary\bunsho.html:97 .\templates\dictionary\bunsho.html:141
+#: .\templates\dictionary\bunsho.html:253
+#: .\templates\dictionary\bunsho_kekka.html:97
+#: .\templates\dictionary\bunsho_kekka.html:141
+#: .\templates\dictionary\bunsho_kekka.html:253
+#: .\templates\dictionary\tango_eigo_rosiago.html:29
+#: .\templates\dictionary\tango_eigo_rosiago.html:36
+#: .\templates\dictionary\tango_kekka_eigo_rosiago.html:29
+#: .\templates\dictionary\tango_kekka_eigo_rosiago.html:36
+#: .\templates\dictionary\tango_kekka_rosiago_nihongo.html:28
+#: .\templates\dictionary\tango_kekka_rosiago_nihongo.html:33
+#: .\templates\dictionary\tango_kekka_sonota.html:99
+#: .\templates\dictionary\tango_kekka_sonota.html:144
+#: .\templates\dictionary\tango_kekka_sonota.html:256
+#: .\templates\dictionary\tango_rosiago_nihongo.html:28
+#: .\templates\dictionary\tango_rosiago_nihongo.html:33
+#: .\templates\dictionary\tango_sonota.html:99
+#: .\templates\dictionary\tango_sonota.html:144
+#: .\templates\dictionary\tango_sonota.html:256
+msgid "gen77"
+msgstr "ロシア語"
+
+#: .\templates\dictionary\bunsho.html:98 .\templates\dictionary\bunsho.html:216
+#: .\templates\dictionary\bunsho.html:478
+#: .\templates\dictionary\bunsho_kekka.html:98
+#: .\templates\dictionary\bunsho_kekka.html:216
+#: .\templates\dictionary\bunsho_kekka.html:478
+#: .\templates\dictionary\tango_kekka_sonota.html:100
+#: .\templates\dictionary\tango_kekka_sonota.html:219
+#: .\templates\dictionary\tango_kekka_sonota.html:481
+#: .\templates\dictionary\tango_sonota.html:100
+#: .\templates\dictionary\tango_sonota.html:219
+#: .\templates\dictionary\tango_sonota.html:481
+msgid "gen78"
+msgstr "サモア語"
+
+#: .\templates\dictionary\bunsho.html:99 .\templates\dictionary\bunsho.html:217
+#: .\templates\dictionary\bunsho.html:481
+#: .\templates\dictionary\bunsho_kekka.html:99
+#: .\templates\dictionary\bunsho_kekka.html:217
+#: .\templates\dictionary\bunsho_kekka.html:481
+#: .\templates\dictionary\tango_kekka_sonota.html:101
+#: .\templates\dictionary\tango_kekka_sonota.html:220
+#: .\templates\dictionary\tango_kekka_sonota.html:484
+#: .\templates\dictionary\tango_sonota.html:101
+#: .\templates\dictionary\tango_sonota.html:220
+#: .\templates\dictionary\tango_sonota.html:484
+msgid "gen79"
+msgstr "スコットランド・ゲール語"
+
+#: .\templates\dictionary\bunsho.html:100
+#: .\templates\dictionary\bunsho.html:218
+#: .\templates\dictionary\bunsho.html:484
+#: .\templates\dictionary\bunsho_kekka.html:100
+#: .\templates\dictionary\bunsho_kekka.html:218
+#: .\templates\dictionary\bunsho_kekka.html:484
+#: .\templates\dictionary\tango_kekka_sonota.html:102
+#: .\templates\dictionary\tango_kekka_sonota.html:221
+#: .\templates\dictionary\tango_kekka_sonota.html:487
+#: .\templates\dictionary\tango_sonota.html:102
+#: .\templates\dictionary\tango_sonota.html:221
+#: .\templates\dictionary\tango_sonota.html:487
+msgid "gen80"
+msgstr "セルビア語"
+
+#: .\templates\dictionary\bunsho.html:101
+#: .\templates\dictionary\bunsho.html:219
+#: .\templates\dictionary\bunsho.html:487
+#: .\templates\dictionary\bunsho_kekka.html:101
+#: .\templates\dictionary\bunsho_kekka.html:219
+#: .\templates\dictionary\bunsho_kekka.html:487
+#: .\templates\dictionary\tango_kekka_sonota.html:103
+#: .\templates\dictionary\tango_kekka_sonota.html:222
+#: .\templates\dictionary\tango_kekka_sonota.html:490
+#: .\templates\dictionary\tango_sonota.html:103
+#: .\templates\dictionary\tango_sonota.html:222
+#: .\templates\dictionary\tango_sonota.html:490
+msgid "gen81"
+msgstr "南部ソト語"
+
+#: .\templates\dictionary\bunsho.html:102
+#: .\templates\dictionary\bunsho.html:220
+#: .\templates\dictionary\bunsho.html:490
+#: .\templates\dictionary\bunsho_kekka.html:102
+#: .\templates\dictionary\bunsho_kekka.html:220
+#: .\templates\dictionary\bunsho_kekka.html:490
+#: .\templates\dictionary\tango_kekka_sonota.html:104
+#: .\templates\dictionary\tango_kekka_sonota.html:223
+#: .\templates\dictionary\tango_kekka_sonota.html:493
+#: .\templates\dictionary\tango_sonota.html:104
+#: .\templates\dictionary\tango_sonota.html:223
+#: .\templates\dictionary\tango_sonota.html:493
+msgid "gen82"
+msgstr "ショナ語"
+
+#: .\templates\dictionary\bunsho.html:103
+#: .\templates\dictionary\bunsho.html:221
+#: .\templates\dictionary\bunsho.html:493
+#: .\templates\dictionary\bunsho_kekka.html:103
+#: .\templates\dictionary\bunsho_kekka.html:221
+#: .\templates\dictionary\bunsho_kekka.html:493
+#: .\templates\dictionary\tango_kekka_sonota.html:105
+#: .\templates\dictionary\tango_kekka_sonota.html:224
+#: .\templates\dictionary\tango_kekka_sonota.html:496
+#: .\templates\dictionary\tango_sonota.html:105
+#: .\templates\dictionary\tango_sonota.html:224
+#: .\templates\dictionary\tango_sonota.html:496
+msgid "gen83"
+msgstr "シンディ語"
+
+#: .\templates\dictionary\bunsho.html:104
+#: .\templates\dictionary\bunsho.html:222
+#: .\templates\dictionary\bunsho.html:496
+#: .\templates\dictionary\bunsho_kekka.html:104
+#: .\templates\dictionary\bunsho_kekka.html:222
+#: .\templates\dictionary\bunsho_kekka.html:496
+#: .\templates\dictionary\tango_kekka_sonota.html:106
+#: .\templates\dictionary\tango_kekka_sonota.html:225
+#: .\templates\dictionary\tango_kekka_sonota.html:499
+#: .\templates\dictionary\tango_sonota.html:106
+#: .\templates\dictionary\tango_sonota.html:225
+#: .\templates\dictionary\tango_sonota.html:499
+msgid "gen84"
+msgstr "シンハラ語"
+
+#: .\templates\dictionary\bunsho.html:105
+#: .\templates\dictionary\bunsho.html:223
+#: .\templates\dictionary\bunsho.html:499
+#: .\templates\dictionary\bunsho_kekka.html:105
+#: .\templates\dictionary\bunsho_kekka.html:223
+#: .\templates\dictionary\bunsho_kekka.html:499
+#: .\templates\dictionary\tango_kekka_sonota.html:107
+#: .\templates\dictionary\tango_kekka_sonota.html:226
+#: .\templates\dictionary\tango_kekka_sonota.html:502
+#: .\templates\dictionary\tango_sonota.html:107
+#: .\templates\dictionary\tango_sonota.html:226
+#: .\templates\dictionary\tango_sonota.html:502
+msgid "gen85"
+msgstr "スロバキア語"
+
+#: .\templates\dictionary\bunsho.html:106
+#: .\templates\dictionary\bunsho.html:224
+#: .\templates\dictionary\bunsho.html:502
+#: .\templates\dictionary\bunsho_kekka.html:106
+#: .\templates\dictionary\bunsho_kekka.html:224
+#: .\templates\dictionary\bunsho_kekka.html:502
+#: .\templates\dictionary\tango_kekka_sonota.html:108
+#: .\templates\dictionary\tango_kekka_sonota.html:227
+#: .\templates\dictionary\tango_kekka_sonota.html:505
+#: .\templates\dictionary\tango_sonota.html:108
+#: .\templates\dictionary\tango_sonota.html:227
+#: .\templates\dictionary\tango_sonota.html:505
+msgid "gen86"
+msgstr "スロベニア語"
+
+#: .\templates\dictionary\bunsho.html:107
+#: .\templates\dictionary\bunsho.html:225
+#: .\templates\dictionary\bunsho.html:505
+#: .\templates\dictionary\bunsho_kekka.html:107
+#: .\templates\dictionary\bunsho_kekka.html:225
+#: .\templates\dictionary\bunsho_kekka.html:505
+#: .\templates\dictionary\tango_kekka_sonota.html:109
+#: .\templates\dictionary\tango_kekka_sonota.html:228
+#: .\templates\dictionary\tango_kekka_sonota.html:508
+#: .\templates\dictionary\tango_sonota.html:109
+#: .\templates\dictionary\tango_sonota.html:228
+#: .\templates\dictionary\tango_sonota.html:508
+msgid "gen87"
+msgstr "ソマリ語"
+
+#: .\templates\dictionary\bunsho.html:108
+#: .\templates\dictionary\bunsho.html:226
+#: .\templates\dictionary\bunsho.html:508
+#: .\templates\dictionary\bunsho_kekka.html:108
+#: .\templates\dictionary\bunsho_kekka.html:226
+#: .\templates\dictionary\bunsho_kekka.html:508
+#: .\templates\dictionary\tango_kekka_sonota.html:110
+#: .\templates\dictionary\tango_kekka_sonota.html:229
+#: .\templates\dictionary\tango_kekka_sonota.html:511
+#: .\templates\dictionary\tango_sonota.html:110
+#: .\templates\dictionary\tango_sonota.html:229
+#: .\templates\dictionary\tango_sonota.html:511
+msgid "gen88"
+msgstr "スペイン語"
+
+#: .\templates\dictionary\bunsho.html:109
+#: .\templates\dictionary\bunsho.html:227
+#: .\templates\dictionary\bunsho.html:511
+#: .\templates\dictionary\bunsho_kekka.html:109
+#: .\templates\dictionary\bunsho_kekka.html:227
+#: .\templates\dictionary\bunsho_kekka.html:511
+#: .\templates\dictionary\tango_kekka_sonota.html:111
+#: .\templates\dictionary\tango_kekka_sonota.html:230
+#: .\templates\dictionary\tango_kekka_sonota.html:514
+#: .\templates\dictionary\tango_sonota.html:111
+#: .\templates\dictionary\tango_sonota.html:230
+#: .\templates\dictionary\tango_sonota.html:514
+msgid "gen89"
+msgstr "スンダ語"
+
+#: .\templates\dictionary\bunsho.html:110
+#: .\templates\dictionary\bunsho.html:228
+#: .\templates\dictionary\bunsho.html:514
+#: .\templates\dictionary\bunsho_kekka.html:110
+#: .\templates\dictionary\bunsho_kekka.html:228
+#: .\templates\dictionary\bunsho_kekka.html:514
+#: .\templates\dictionary\tango_kekka_sonota.html:112
+#: .\templates\dictionary\tango_kekka_sonota.html:231
+#: .\templates\dictionary\tango_kekka_sonota.html:517
+#: .\templates\dictionary\tango_sonota.html:112
+#: .\templates\dictionary\tango_sonota.html:231
+#: .\templates\dictionary\tango_sonota.html:517
+msgid "gen90"
+msgstr "スワヒリ語"
+
+#: .\templates\dictionary\bunsho.html:111
+#: .\templates\dictionary\bunsho.html:229
+#: .\templates\dictionary\bunsho.html:517
+#: .\templates\dictionary\bunsho_kekka.html:111
+#: .\templates\dictionary\bunsho_kekka.html:229
+#: .\templates\dictionary\bunsho_kekka.html:517
+#: .\templates\dictionary\tango_kekka_sonota.html:113
+#: .\templates\dictionary\tango_kekka_sonota.html:232
+#: .\templates\dictionary\tango_kekka_sonota.html:520
+#: .\templates\dictionary\tango_sonota.html:113
+#: .\templates\dictionary\tango_sonota.html:232
+#: .\templates\dictionary\tango_sonota.html:520
+msgid "gen91"
+msgstr "スウェーデン語"
+
+#: .\templates\dictionary\bunsho.html:112
+#: .\templates\dictionary\bunsho.html:230
+#: .\templates\dictionary\bunsho.html:520
+#: .\templates\dictionary\bunsho_kekka.html:112
+#: .\templates\dictionary\bunsho_kekka.html:230
+#: .\templates\dictionary\bunsho_kekka.html:520
+#: .\templates\dictionary\tango_kekka_sonota.html:114
+#: .\templates\dictionary\tango_kekka_sonota.html:233
+#: .\templates\dictionary\tango_kekka_sonota.html:523
+#: .\templates\dictionary\tango_sonota.html:114
+#: .\templates\dictionary\tango_sonota.html:233
+#: .\templates\dictionary\tango_sonota.html:523
+msgid "gen92"
+msgstr "タジク語"
+
+#: .\templates\dictionary\bunsho.html:113
+#: .\templates\dictionary\bunsho.html:231
+#: .\templates\dictionary\bunsho.html:523
+#: .\templates\dictionary\bunsho_kekka.html:113
+#: .\templates\dictionary\bunsho_kekka.html:231
+#: .\templates\dictionary\bunsho_kekka.html:523
+#: .\templates\dictionary\tango_kekka_sonota.html:115
+#: .\templates\dictionary\tango_kekka_sonota.html:234
+#: .\templates\dictionary\tango_kekka_sonota.html:526
+#: .\templates\dictionary\tango_sonota.html:115
+#: .\templates\dictionary\tango_sonota.html:234
+#: .\templates\dictionary\tango_sonota.html:526
+msgid "gen93"
+msgstr "タミル語"
+
+#: .\templates\dictionary\bunsho.html:114
+#: .\templates\dictionary\bunsho.html:232
+#: .\templates\dictionary\bunsho.html:526
+#: .\templates\dictionary\bunsho_kekka.html:114
+#: .\templates\dictionary\bunsho_kekka.html:232
+#: .\templates\dictionary\bunsho_kekka.html:526
+#: .\templates\dictionary\tango_kekka_sonota.html:116
+#: .\templates\dictionary\tango_kekka_sonota.html:235
+#: .\templates\dictionary\tango_kekka_sonota.html:529
+#: .\templates\dictionary\tango_sonota.html:116
+#: .\templates\dictionary\tango_sonota.html:235
+#: .\templates\dictionary\tango_sonota.html:529
+msgid "gen94"
+msgstr "テルグ語"
+
+#: .\templates\dictionary\bunsho.html:115
+#: .\templates\dictionary\bunsho.html:233
+#: .\templates\dictionary\bunsho.html:529
+#: .\templates\dictionary\bunsho_kekka.html:115
+#: .\templates\dictionary\bunsho_kekka.html:233
+#: .\templates\dictionary\bunsho_kekka.html:529
+#: .\templates\dictionary\tango_kekka_sonota.html:117
+#: .\templates\dictionary\tango_kekka_sonota.html:236
+#: .\templates\dictionary\tango_kekka_sonota.html:532
+#: .\templates\dictionary\tango_sonota.html:117
+#: .\templates\dictionary\tango_sonota.html:236
+#: .\templates\dictionary\tango_sonota.html:532
+msgid "gen95"
+msgstr "タイ語"
+
+#: .\templates\dictionary\bunsho.html:116
+#: .\templates\dictionary\bunsho.html:234
+#: .\templates\dictionary\bunsho.html:532
+#: .\templates\dictionary\bunsho_kekka.html:116
+#: .\templates\dictionary\bunsho_kekka.html:234
+#: .\templates\dictionary\bunsho_kekka.html:532
+#: .\templates\dictionary\tango_kekka_sonota.html:118
+#: .\templates\dictionary\tango_kekka_sonota.html:237
+#: .\templates\dictionary\tango_kekka_sonota.html:535
+#: .\templates\dictionary\tango_sonota.html:118
+#: .\templates\dictionary\tango_sonota.html:237
+#: .\templates\dictionary\tango_sonota.html:535
+msgid "gen96"
+msgstr "トルコ語"
+
+#: .\templates\dictionary\bunsho.html:117
+#: .\templates\dictionary\bunsho.html:235
+#: .\templates\dictionary\bunsho.html:535
+#: .\templates\dictionary\bunsho_kekka.html:117
+#: .\templates\dictionary\bunsho_kekka.html:235
+#: .\templates\dictionary\bunsho_kekka.html:535
+#: .\templates\dictionary\tango_kekka_sonota.html:119
+#: .\templates\dictionary\tango_kekka_sonota.html:238
+#: .\templates\dictionary\tango_kekka_sonota.html:538
+#: .\templates\dictionary\tango_sonota.html:119
+#: .\templates\dictionary\tango_sonota.html:238
+#: .\templates\dictionary\tango_sonota.html:538
+msgid "gen97"
+msgstr "ウクライナ語"
+
+#: .\templates\dictionary\bunsho.html:118
+#: .\templates\dictionary\bunsho.html:236
+#: .\templates\dictionary\bunsho.html:538
+#: .\templates\dictionary\bunsho_kekka.html:118
+#: .\templates\dictionary\bunsho_kekka.html:236
+#: .\templates\dictionary\bunsho_kekka.html:538
+#: .\templates\dictionary\tango_kekka_sonota.html:120
+#: .\templates\dictionary\tango_kekka_sonota.html:239
+#: .\templates\dictionary\tango_kekka_sonota.html:541
+#: .\templates\dictionary\tango_sonota.html:120
+#: .\templates\dictionary\tango_sonota.html:239
+#: .\templates\dictionary\tango_sonota.html:541
+msgid "gen98"
+msgstr "ウルドゥー語"
+
+#: .\templates\dictionary\bunsho.html:119
+#: .\templates\dictionary\bunsho.html:237
+#: .\templates\dictionary\bunsho.html:541
+#: .\templates\dictionary\bunsho_kekka.html:119
+#: .\templates\dictionary\bunsho_kekka.html:237
+#: .\templates\dictionary\bunsho_kekka.html:541
+#: .\templates\dictionary\tango_kekka_sonota.html:121
+#: .\templates\dictionary\tango_kekka_sonota.html:240
+#: .\templates\dictionary\tango_kekka_sonota.html:544
+#: .\templates\dictionary\tango_sonota.html:121
+#: .\templates\dictionary\tango_sonota.html:240
+#: .\templates\dictionary\tango_sonota.html:544
+msgid "gen99"
+msgstr "ウイグル語"
+
+#: .\templates\dictionary\bunsho.html:120
+#: .\templates\dictionary\bunsho.html:238
+#: .\templates\dictionary\bunsho.html:544
+#: .\templates\dictionary\bunsho_kekka.html:120
+#: .\templates\dictionary\bunsho_kekka.html:238
+#: .\templates\dictionary\bunsho_kekka.html:544
+#: .\templates\dictionary\tango_kekka_sonota.html:122
+#: .\templates\dictionary\tango_kekka_sonota.html:241
+#: .\templates\dictionary\tango_kekka_sonota.html:547
+#: .\templates\dictionary\tango_sonota.html:122
+#: .\templates\dictionary\tango_sonota.html:241
+#: .\templates\dictionary\tango_sonota.html:547
+msgid "gen100"
+msgstr "ウズベク語"
+
+#: .\templates\dictionary\bunsho.html:121
+#: .\templates\dictionary\bunsho.html:239
+#: .\templates\dictionary\bunsho.html:547
+#: .\templates\dictionary\bunsho_kekka.html:121
+#: .\templates\dictionary\bunsho_kekka.html:239
+#: .\templates\dictionary\bunsho_kekka.html:547
+#: .\templates\dictionary\tango_kekka_sonota.html:123
+#: .\templates\dictionary\tango_kekka_sonota.html:242
+#: .\templates\dictionary\tango_kekka_sonota.html:550
+#: .\templates\dictionary\tango_sonota.html:123
+#: .\templates\dictionary\tango_sonota.html:242
+#: .\templates\dictionary\tango_sonota.html:550
+msgid "gen101"
+msgstr "ベトナム語"
+
+#: .\templates\dictionary\bunsho.html:122
+#: .\templates\dictionary\bunsho.html:240
+#: .\templates\dictionary\bunsho.html:550
+#: .\templates\dictionary\bunsho_kekka.html:122
+#: .\templates\dictionary\bunsho_kekka.html:240
+#: .\templates\dictionary\bunsho_kekka.html:550
+#: .\templates\dictionary\tango_kekka_sonota.html:124
+#: .\templates\dictionary\tango_kekka_sonota.html:243
+#: .\templates\dictionary\tango_kekka_sonota.html:553
+#: .\templates\dictionary\tango_sonota.html:124
+#: .\templates\dictionary\tango_sonota.html:243
+#: .\templates\dictionary\tango_sonota.html:553
+msgid "gen102"
+msgstr "ウェールズ語"
+
+#: .\templates\dictionary\bunsho.html:123
+#: .\templates\dictionary\bunsho.html:241
+#: .\templates\dictionary\bunsho.html:553
+#: .\templates\dictionary\bunsho_kekka.html:123
+#: .\templates\dictionary\bunsho_kekka.html:241
+#: .\templates\dictionary\bunsho_kekka.html:553
+#: .\templates\dictionary\tango_kekka_sonota.html:125
+#: .\templates\dictionary\tango_kekka_sonota.html:244
+#: .\templates\dictionary\tango_kekka_sonota.html:556
+#: .\templates\dictionary\tango_sonota.html:125
+#: .\templates\dictionary\tango_sonota.html:244
+#: .\templates\dictionary\tango_sonota.html:556
+msgid "gen103"
+msgstr "コサ語"
+
+#: .\templates\dictionary\bunsho.html:124
+#: .\templates\dictionary\bunsho.html:242
+#: .\templates\dictionary\bunsho.html:556
+#: .\templates\dictionary\bunsho_kekka.html:124
+#: .\templates\dictionary\bunsho_kekka.html:242
+#: .\templates\dictionary\bunsho_kekka.html:556
+#: .\templates\dictionary\tango_kekka_sonota.html:126
+#: .\templates\dictionary\tango_kekka_sonota.html:245
+#: .\templates\dictionary\tango_kekka_sonota.html:559
+#: .\templates\dictionary\tango_sonota.html:126
+#: .\templates\dictionary\tango_sonota.html:245
+#: .\templates\dictionary\tango_sonota.html:559
+msgid "gen104"
+msgstr "イディッシュ語"
+
+#: .\templates\dictionary\bunsho.html:125
+#: .\templates\dictionary\bunsho.html:243
+#: .\templates\dictionary\bunsho.html:559
+#: .\templates\dictionary\bunsho_kekka.html:125
+#: .\templates\dictionary\bunsho_kekka.html:243
+#: .\templates\dictionary\bunsho_kekka.html:559
+#: .\templates\dictionary\tango_kekka_sonota.html:127
+#: .\templates\dictionary\tango_kekka_sonota.html:246
+#: .\templates\dictionary\tango_kekka_sonota.html:562
+#: .\templates\dictionary\tango_sonota.html:127
+#: .\templates\dictionary\tango_sonota.html:246
+#: .\templates\dictionary\tango_sonota.html:562
+msgid "gen105"
+msgstr "ヨルバ語"
+
+#: .\templates\dictionary\bunsho.html:132
+#: .\templates\dictionary\bunsho_kekka.html:132
+msgid "bun_nyu"
+msgstr "文章を入力してください"
+
+#: .\templates\dictionary\bunsho.html:138
+#: .\templates\dictionary\bunsho_kekka.html:138
+#: .\templates\dictionary\tango_eigo_rosiago.html:27
+#: .\templates\dictionary\tango_kekka_eigo_rosiago.html:27
+#: .\templates\dictionary\tango_kekka_nihongo_eigo.html:27
+#: .\templates\dictionary\tango_kekka_rosiago_nihongo.html:27
+#: .\templates\dictionary\tango_kekka_sonota.html:141
+#: .\templates\dictionary\tango_nihongo_eigo.html:27
+#: .\templates\dictionary\tango_rosiago_nihongo.html:27
+#: .\templates\dictionary\tango_sonota.html:141
+msgid "bun_check"
+msgstr "翻訳言語を選択してください"
+
+#: .\templates\dictionary\bunsho.html:566
+#: .\templates\dictionary\bunsho_kekka.html:566
+msgid "bun_btn"
+msgstr "翻訳"
+
+#: .\templates\dictionary\bunsho.html:574
+#: .\templates\dictionary\bunsho_kekka.html:584
+#: .\templates\dictionary\imi.html:27 .\templates\dictionary\imi_kekka.html:36
+#: .\templates\dictionary\tango_eigo_rosiago.html:46
+#: .\templates\dictionary\tango_kekka_eigo_rosiago.html:57
+#: .\templates\dictionary\tango_kekka_nihongo_eigo.html:57
+#: .\templates\dictionary\tango_kekka_rosiago_nihongo.html:57
+#: .\templates\dictionary\tango_kekka_sonota.html:579
+#: .\templates\dictionary\tango_nihongo_eigo.html:46
+#: .\templates\dictionary\tango_rosiago_nihongo.html:46
+#: .\templates\dictionary\tango_sentaku.html:36
+#: .\templates\dictionary\tango_sonota.html:573
+msgid "hoka_btn"
+msgstr "他の機能を選ぶ"
+
+#: .\templates\dictionary\imi.html:8 .\templates\dictionary\imi_kekka.html:8
+msgid "imi_lang"
+msgstr "日本語・英語・ロシア語ページ"
+
+#: .\templates\dictionary\imi.html:12 .\templates\dictionary\imi_kekka.html:12
+msgid "imi_setsu1"
+msgstr "意味を検索したい単語を入力してください"
+
+#: .\templates\dictionary\imi.html:19 .\templates\dictionary\imi_kekka.html:19
+msgid "imi_nyu"
+msgstr "単語を入力してください"
+
+#: .\templates\dictionary\imi.html:20 .\templates\dictionary\imi_kekka.html:20
+msgid "imi_btn"
+msgstr "検索"
+
+#: .\templates\dictionary\menu.html:8
+msgid "menu"
+msgstr "メニュー"
+
+#: .\templates\dictionary\menu.html:12
+#: .\templates\dictionary\tango_sentaku.html:12
+msgid "menu_setsu"
+msgstr "やりたいことを選んでください："
+
+#: .\templates\dictionary\menu.html:17
+msgid "i"
+msgstr "意味"
+
+#: .\templates\dictionary\menu.html:17
+msgid "k"
+msgstr "検索"
+
+#: .\templates\dictionary\menu.html:21
+msgid "t"
+msgstr "単語"
+
+#: .\templates\dictionary\menu.html:21
+msgid "h"
+msgstr "翻訳"
+
+#: .\templates\dictionary\menu.html:25
+msgid "b"
+msgstr "文章"
+
+#: .\templates\dictionary\menu.html:25
+msgid "v"
+msgstr "翻訳"
+
+#: .\templates\dictionary\tango_eigo_rosiago.html:8
+#: .\templates\dictionary\tango_kekka_eigo_rosiago.html:8
+msgid "ei_ro_pe"
+msgstr "英語・ロシア語ページ"
+
+#: .\templates\dictionary\tango_eigo_rosiago.html:12
+#: .\templates\dictionary\tango_kekka_eigo_rosiago.html:12
+msgid "eiro_gen_setsu1"
+msgstr "翻訳したい単語を入力してください"
+
+#: .\templates\dictionary\tango_eigo_rosiago.html:13
+#: .\templates\dictionary\tango_kekka_eigo_rosiago.html:13
+msgid "eiro_gen_setsu2"
+msgstr "このページは英語・ロシア語のみ"
+
+#: .\templates\dictionary\tango_eigo_rosiago.html:14
+#: .\templates\dictionary\tango_kekka_eigo_rosiago.html:14
+msgid "eiro_gen_setsu3"
+msgstr "入力言語は自動的に認定される"
+
+#: .\templates\dictionary\tango_eigo_rosiago.html:15
+#: .\templates\dictionary\tango_kekka_eigo_rosiago.html:15
+msgid "eiro_gen_setsu4"
+msgstr "出力言語を選択必要"
+
+#: .\templates\dictionary\tango_eigo_rosiago.html:20
+#: .\templates\dictionary\tango_kekka_eigo_rosiago.html:20
+#: .\templates\dictionary\tango_kekka_nihongo_eigo.html:20
+#: .\templates\dictionary\tango_kekka_rosiago_nihongo.html:20
+#: .\templates\dictionary\tango_kekka_sonota.html:134
+#: .\templates\dictionary\tango_nihongo_eigo.html:20
+#: .\templates\dictionary\tango_rosiago_nihongo.html:20
+#: .\templates\dictionary\tango_sonota.html:134
+msgid "tan_nyu"
+msgstr "単語を入力してください"
+
+#: .\templates\dictionary\tango_eigo_rosiago.html:21
+#: .\templates\dictionary\tango_kekka_eigo_rosiago.html:21
+#: .\templates\dictionary\tango_kekka_nihongo_eigo.html:21
+#: .\templates\dictionary\tango_kekka_rosiago_nihongo.html:21
+#: .\templates\dictionary\tango_kekka_sonota.html:135
+#: .\templates\dictionary\tango_nihongo_eigo.html:21
+#: .\templates\dictionary\tango_rosiago_nihongo.html:21
+#: .\templates\dictionary\tango_sonota.html:135
+msgid "tan_btn"
+msgstr "翻訳"
+
+#: .\templates\dictionary\tango_kekka_nihongo_eigo.html:8
+#: .\templates\dictionary\tango_nihongo_eigo.html:8
+msgid "ni_ei_pe"
+msgstr "日本語・英語ページ"
+
+#: .\templates\dictionary\tango_kekka_nihongo_eigo.html:12
+#: .\templates\dictionary\tango_nihongo_eigo.html:12
+msgid "niei_gen_setsu1"
+msgstr "翻訳したい単語を入力してください"
+
+#: .\templates\dictionary\tango_kekka_nihongo_eigo.html:13
+#: .\templates\dictionary\tango_nihongo_eigo.html:13
+msgid "niei_gen_setsu2"
+msgstr "このページは日本語・英語のみ"
+
+#: .\templates\dictionary\tango_kekka_nihongo_eigo.html:14
+#: .\templates\dictionary\tango_nihongo_eigo.html:14
+msgid "niei_gen_setsu3"
+msgstr "入力言語は自動的に認定される"
+
+#: .\templates\dictionary\tango_kekka_nihongo_eigo.html:15
+#: .\templates\dictionary\tango_nihongo_eigo.html:15
+msgid "niei_gen_setsu4"
+msgstr "出力言語を選択必要"
+
+#: .\templates\dictionary\tango_kekka_rosiago_nihongo.html:8
+#: .\templates\dictionary\tango_rosiago_nihongo.html:8
+msgid "ro_ni_pe"
+msgstr "ロシア語・日本語ページ"
+
+#: .\templates\dictionary\tango_kekka_rosiago_nihongo.html:12
+#: .\templates\dictionary\tango_rosiago_nihongo.html:12
+msgid "roni_gen_setsu1"
+msgstr "翻訳したい単語を入力してください"
+
+#: .\templates\dictionary\tango_kekka_rosiago_nihongo.html:13
+#: .\templates\dictionary\tango_rosiago_nihongo.html:13
+msgid "roni_gen_setsu2"
+msgstr "このページはロシア語・日本語のみ"
+
+#: .\templates\dictionary\tango_kekka_rosiago_nihongo.html:14
+#: .\templates\dictionary\tango_rosiago_nihongo.html:14
+msgid "roni_gen_setsu3"
+msgstr "入力言語は自動的に認定される"
+
+#: .\templates\dictionary\tango_kekka_rosiago_nihongo.html:15
+#: .\templates\dictionary\tango_rosiago_nihongo.html:15
+msgid "roni_gen_setsu4"
+msgstr "出力言語を選択必要"
+
+#: .\templates\dictionary\tango_kekka_sonota.html:8
+#: .\templates\dictionary\tango_sonota.html:8
+msgid "ogen_pe"
+msgstr "多言語ページ"
+
+#: .\templates\dictionary\tango_kekka_sonota.html:12
+#: .\templates\dictionary\tango_sonota.html:12
+msgid "ta_gen_setsu1"
+msgstr "翻訳したい単語を入力してください"
+
+#: .\templates\dictionary\tango_kekka_sonota.html:13
+#: .\templates\dictionary\tango_sonota.html:13
+msgid "ta_gen_setsu2"
+msgstr "このページは日常言葉のみ"
+
+#: .\templates\dictionary\tango_kekka_sonota.html:14
+#: .\templates\dictionary\tango_sonota.html:14
+msgid "ta_gen_setsu3"
+msgstr "入力言語は自動的に認定される"
+
+#: .\templates\dictionary\tango_kekka_sonota.html:15
+#: .\templates\dictionary\tango_sonota.html:15
+msgid "ta_gen_setsu4"
+msgstr "出力言語を選択必要"
+
+#: .\templates\dictionary\tango_sentaku.html:17
+#: .\templates\dictionary\tango_sentaku.html:25
+msgid "ni"
+msgstr "日本語"
+
+#: .\templates\dictionary\tango_sentaku.html:17
+#: .\templates\dictionary\tango_sentaku.html:21
+msgid "ei"
+msgstr "英語"
+
+#: .\templates\dictionary\tango_sentaku.html:21
+#: .\templates\dictionary\tango_sentaku.html:25
+msgid "ro"
+msgstr "ロシア語"
+
+#: .\templates\dictionary\tango_sentaku.html:29
+msgid "hoka"
+msgstr "その他"
+
+#: .\views.py:99 .\views.py:167 .\views.py:236 .\views.py:825
+msgid "close_setsu1"
+msgstr "入力された"
+
+#: .\views.py:100 .\views.py:168 .\views.py:237 .\views.py:826
+msgid "close_setsu2"
+msgstr "は見つからなかった。"
+
+#: .\views.py:101 .\views.py:169 .\views.py:238 .\views.py:827
+msgid "close_setsu3"
+msgstr "おそらくこれを探しただろう"
+
+#: .\views.py:102 .\views.py:170 .\views.py:239 .\views.py:828
+msgid "close_setsu_quotes1"
+msgstr "「"
+
+#: .\views.py:103 .\views.py:171 .\views.py:240 .\views.py:829
+msgid "close_setsu_quotes2"
+msgstr "」"
+
+#~ msgid "about_stage1"
+#~ msgstr "あると → その結果が出力される"
+
+#~ msgid "about_stage2"
+#~ msgstr "なければ → PyDictionaryライブラリを使って、意味を検索する"
+
+#~ msgid "nav2"
+#~ msgstr "ニュース"
+
+#~ msgid "nav3"
+#~ msgstr "連絡先"

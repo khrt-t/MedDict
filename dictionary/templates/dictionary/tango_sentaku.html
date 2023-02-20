@@ -1,0 +1,41 @@
+{% extends 'dictionary/base.html' %}
+{% load static %}
+{% load i18n %}
+{% load gtranslate %}
+{% block tango %}
+<div>
+    <div class="header">
+        <h1 class="header1">{% trans 'tango' %}</h1>
+    </div>
+
+    <div class="setsumei-tango">
+        <p>{% trans 'menu_setsu' %}</p>
+    </div>
+
+    <div class="block-links-tango">
+        <div class="link-tango">
+            <a href="tango_nihongo_eigo/">{% trans 'ni' %}<br><img src="{% static 'IMG/yajirushi.png' %}" width="90" height="70" title="honyaku"><br>{% trans 'ei' %}</a>
+        </div>
+
+        <div class="link-tango">
+            <a href="tango_eigo_rosiago/">{% trans 'ei' %}<br><img src="{% static 'IMG/yajirushi.png' %}" width="90" height="70" title="honyaku"><br>{% trans 'ro' %}</a>
+        </div>
+
+        <div class="link-tango">
+            <a href="tango_rosiago_nihongo/">{% trans 'ro' %}<br><img src="{% static 'IMG/yajirushi.png' %}" width="90" height="70" title="honyaku"><br>{% trans 'ni' %}</a>
+        </div>
+
+        <div class="link-tango">
+            <a href="tango_sonota/"><br>{% trans 'hoka' %}</a>
+        </div>
+    </div>
+
+    <div>
+        <form class="modoru" action="/">
+            <div>
+                <button style="margin-left: 45px; padding: 20px" type="submit" class="btn"><span>{% trans 'hoka_btn' %}</span></button>
+            </div>
+        </form>
+    </div>
+</div>
+{% endblock %}

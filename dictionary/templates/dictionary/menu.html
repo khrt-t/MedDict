@@ -1,0 +1,29 @@
+{% extends 'dictionary/base.html' %}
+{% load static %}
+{% load i18n %}
+{% load gtranslate %}
+{% block index %}
+<div>
+    <div class="header">
+        <h1 class="header1">{% trans 'menu' %}</h1>
+    </div>
+
+    <div class="setsumei-menu">
+        <p>{% trans 'menu_setsu' %}</p>
+    </div>
+
+    <div class="block-links-menu">
+        <div class="link-menu">
+            <a href="imi/"><img src="{% static 'IMG/search.png' %}" width="50" height="50" title="検索">{% trans 'i' %}<br>{% trans 'k' %}</a>
+        </div>
+
+        <div class="link-menu">
+            <a href="tango_sentaku/"><img src="{% static 'IMG/search.png' %}" width="50" height="50" title="検索">{% trans 't' %}<br>{% trans 'h' %}</a>
+        </div>
+
+        <div class="link-menu">
+            <a href="bunsho/"><img src="{% static 'IMG/search.png' %}" width="50" height="50" title="検索">{% trans 'b' %}<br>{% trans 'v' %}</a>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,60 @@
+{% extends 'dictionary/base.html' %}
+{% load i18n %}
+{% load gtranslate %}
+{% block tango %}
+<div>
+    <div class="header">
+        <h1 class="header1">{% trans 'tango' %}</h1><br>
+        <h2 class="header2">{% trans 'ei_ro_pe' %}</h2>
+    </div>
+
+    <div class="top-setsumei">
+        <p style="line-height: 1; font-size: 32px">{% trans 'eiro_gen_setsu1' %}</p>
+        <li style="font-size: 22px">{% trans 'eiro_gen_setsu2' %}</li>
+        <li style="font-size: 22px">{% trans 'eiro_gen_setsu3' %}</li>
+        <li style="font-size: 22px">{% trans 'eiro_gen_setsu4' %}</li>
+    </div>
+
+    <form method="get">
+        <div class="word-input">
+            <input style="width: 700px" type="text" name="text" placeholder="{% trans 'tan_nyu' %}">
+            <button type="submit" class="btn"><span>{% trans 'tan_btn' %}</span></button>
+        </div>
+
+        <div class="selector">
+            <details>
+                <summary>
+                    <input type="radio" name="lang" id="default" title="{% trans 'bun_check' %}" checked>
+                    <input type="radio" name="lang" id="item22" title="{% trans 'gen22' %}" value="en">
+                    <input type="radio" name="lang" id="item77" title="{% trans 'gen77' %}" value="ru">
+                </summary>
+                <ul class="ul-selector">
+                    <li class="li-selector">
+                        <label for="item22">{% trans 'gen22' %}</label>
+                    </li>
+                    <li class="li-selector">
+                        <label for="item77">{% trans 'gen77' %}</label>
+                    </li>
+                </ul>
+            </details>
+        </div>
+    </form>
+
+    <div class="kekka-tango-main">
+        <p style="line-height: 1; font-size: 32px">{% trans close_setsu1 %} {% trans close_setsu_quotes1 %}<b>{{ not_found_word }}</b>{% trans close_setsu_quotes2 %} {% trans close_setsu2 %} {% trans close_setsu3 %}</p>
+        <div style="margin-top: 25px">
+            <h1>{{ word }}</h1>
+            <div style="width: 950px; height: 1px; margin-top: 5px; margin-bottom: 5px; border-top-color: #cccccc; border-top-width: 1px; border-top-style: solid;"></div>
+            <p class="tango-kekka">{{ translation }}</p>
+        </div>
+    </div>
+
+    <div>
+        <form class="modoru" action="/">
+            <div>
+                <button style="margin-left: 22px; padding: 20px" type="submit" class="btn"><span>{% trans 'hoka_btn' %}</span></button>
+            </div>
+        </form>
+    </div>
+</div>
+{% endblock %}
